@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Bangla Language Processing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container" style="box-shadow: 0 0 30px black; margin-top: 25px; height: 700px; border-radius: 10px;">
+        <h1 class="text-center jumbotron"> Bangla Enconverter </h1>
+        <form method="post" action="/submit/">
+            {% csrf_token %}
+            <br />
+
+            <div class="row well" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-sm-7">
+
+                <h4>Select Language<br/></h4>
+                <input type="radio" name="lang" value="English" /> English <br />
+                <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />
+
+                <h4>Input the text here <br /></h4>
+                <input class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText" > <br />
+                <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+            </div>
+
+            <div class="col-sm-4">
+                <h4>Encode Or Decode <br/></h4>
+                <input type="radio" name="enordn" value="Encode" > Encode text <br />
+                <input type="radio" name="enordn" value="Decode"> Decode text <br />
+            </div>
+            </div>
+
+            <br />
+
+            <blockquote>
+            {% block content %}
+
+            {% endblock %}
+            </blockquote>
+        </form>
+    </div>
+
+
+</body>
+</html>
