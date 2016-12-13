@@ -7,30 +7,78 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div class="container" style="box-shadow: 0 0 30px black; margin-top: 25px; height: 700px; border-radius: 10px;">
+<body background="maxresdefault.jpg">
+    <div class="container" style="box-shadow: 0 0 30px black; margin-top: 25px; height: 750px; border-radius: 10px;">
         <h1 class="text-center jumbotron"> Bangla Enconverter </h1>
         <form method="post" action="/submit/">
             {% csrf_token %}
-            <br />
 
-            <div class="row well" style="margin-left: 0px; margin-right: 0px;">
-            <div class="col-sm-7">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" >
+                    <a class="nav-link in active" data-toggle="tab" href="#bangla" role="tab">Bangla</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" data-toggle="tab" href="#english" role="tab">English</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" data-toggle="tab" href="#translate" role="tab">Translate</a>
+                </li>
+            </ul>
 
-                <h4>Select Language<br/></h4>
-                <input type="radio" name="lang" value="English" /> English <br />
-                <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />
+            <div class="row" style="margin-left: 0px; margin-right: 0px;">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="bangla" role="tabpanel">
+                        <h3>Bangla Enconversion/Deconversion</h3>
 
-                <h4>Input the text here <br /></h4>
-                <input class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText" > <br />
-                <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
-            </div>
+                        <input type="radio" name="lang1" value="Bangla" checked="checked" /> Bangla <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn" value="Encode" > Encode text <br />
+                        <input type="radio" name="enordn" value="Decode"> Decode text <br />
 
-            <div class="col-sm-4">
-                <h4>Encode Or Decode <br/></h4>
-                <input type="radio" name="enordn" value="Encode" > Encode text <br />
-                <input type="radio" name="enordn" value="Decode"> Decode text <br />
-            </div>
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText1" ></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+
+                    <div class="tab-pane" id="english" role="tabpanel">
+                        <h3>English Enconversion/Deconversion</h3>
+
+                        <input type="radio" name="lang2" value="English" checked="checked" /> English <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn" value="Encode" > Encode text <br />
+                        <input type="radio" name="enordn" value="Decode"> Decode text <br />
+
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText2"></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+                    <div class="tab-pane" id="translate" role="tabpanel">
+                        <h3>Translate Sentence</h3>
+
+                        <input type="radio" name="lang3" value="Translate" checked="checked" /> Translate <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn" value="Encode" > English To Bangla <br />
+                        <input type="radio" name="enordn" value="Decode"> Bangla to English <br />
+
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText3" ></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+                </div>
+
+
             </div>
 
             <br />
