@@ -1,0 +1,55 @@
+;;
+;;
+;;Sentence starts with subject
+;;
+;;Proper noun - 0-Bivakti
+R{:::}{^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV:+N,+PROP::}(BLK)P10;
++:c{N,PROP,TEMP,^ablk:ablk::}{BLK}(^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV)(BLK)P10;
+R{:::}{N,PROP,TEMP,ablk:::}(^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV)(BLK)P11;
++:c{N,PROP,TEMP,ablk:-ablk::}{^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV}(BLK)P11;
+R{:::}{N,PROP,TEMP,^SUBJ,^ablk}(BLK)P10;
+;;Define subject
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(PRON)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(N)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(VERB)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ROOT)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ADJ)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ADV)P10;
+;;
+R{SHEAD:::}{SUBJ:::}P10;
+;;
+DR{SUBJ,^blk:blk::}{BLK:::}P10;
+;;
+R{SUBJ:::}{N:::}P10;
+DR{N,^blk:blk::}{BLK:::}P10;
+DR{PRON,^blk:blk::}{BLK:::}P10;
+R{N:::}{ROOT,^VERB:::}P10;
++{ROOT,VEND,^ALT,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+:{:::}{VERB,KBIV:-KBIV,-VEND,-CEND::}P10;
+>{N,^SUBJ,^#INS,^#POS::obj:}{VERB,#OBJ:::}P10;
+;;
+>{SUBJ::agt:}{VERB,#AGT:::}P10;
+R{SHEAD:::}{VERB,^&@entry:+&@entry::}P10;
+R{VERB:::}{STAIL:::}P10;
+;;
+;;Instrumental case
+R{:::}{N,#INS:::}P10;
+DR{N,#INS,^blk2:blk2::}{BLK:::}P10;
++{N:@::}{ABY,#INS:::}P10;
+:{:::}{N,#INS,ABY:-ABY::}P10;
+R{N,#INS::ins:}{N:::}P10;
+>{N,#INS::ins:}{VERB:::}P10;
+;;
+;;
+;;Possesive case
+R{:::}{N:::}(BIV,6B)P10;
+R{:::}{PRON:::}P10;
+R{:::}{N:::}P10;
++{N,^#POS:#POS::}{BIV,6B:::}P10;
+R{:::}{#POS:::}P10;
+>{#POS}{N::pos:}P10;
+;;
+;;
+;;Article
++{N,^@def:@def::}{BIV,ART,DEF:::}P10;
+

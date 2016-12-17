@@ -1,0 +1,280 @@
+================= WORD LISTS : 03 ==================
+01  05  00:<obj
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (N,NCOM,#OBJ,VEND) <B,1,1>;
+02  09  00:,@entry,@present,>agt,>obj
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+03  00  00:,@pl,<agt
+[Avgiv]{}  "we(icl>person)" (PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+======================== UNL =======================
+eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09(,@entry,@present,>agt,>obj)
+  -agt>we(icl>person)(,@pl,<agt)
+  -obj>banana(icl>edible_fruit>thing):05(<obj)
+====================================================
+=================== NODE LIST:00 ===================
+/[<<]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,1P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^1p:+1p::}P9;
+-- other applicable rules --
+:"HPRON,2P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^2p:+2p::}P9;
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[Avgiv]{}  "we(icl>person)" (,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[Avgiv|uw=we(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[Avgiv]{}  "we(icl>person)" (,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{SUBJ:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+>>>>> rnode
+[Avgiv]{}  "we(icl>person)" (,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</[Avgiv|uw=we(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[Avgiv]{}  "we(icl>person)" (,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:{SUBJ,^blk:+blk::}"[ ],BLK:::"P10;
+-- other applicable rules --
+:"PRON,^HPRON::agt:"{ROOT,VEND,#AGT,^3p:+3p::}P10;
+:"N,^@pl,^SUBJ:+SUBJ:agt:"{ROOT,VEND,#AGT,^3p,^sg:+3p,+sg::}P10;
+:"N,@pl,^SUBJ:+SUBJ:agt:"{ROOT,VEND,#AGT,^3p,^pl:+3p,+pl::}P10;
+:"HPRON,2P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^2p:+2p::}P9;
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode
+[Avgiv]{}  "we(icl>person)" (blk,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+>>>>> rnode  INSERTED
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/[<<]/[Avgiv|uw=we(icl>person)]/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[Avgiv]{}  "we(icl>person)" (blk,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{SUBJ:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+>>>>> rnode
+[Avgiv]{}  "we(icl>person)" (blk,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</[Avgiv|uw=we(icl>person)]/[ ]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[Avgiv]{}  "we(icl>person)" (blk,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+rnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+==================== APPLIED RULE ==================
+R{SUBJ:::}{BLK:::}P3;
+-- other applicable rules --
+R{:::}{BLK:::}P3;
+====================================================
+>>>>> lnode
+[Avgiv]{}  "we(icl>person)" (blk,@pl,<agt,PRON,HPRON,1P,PL,SUBJ) <B,1,1>;
+>>>>> rnode
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+-- other applicable rules --
+R{BLK:::}{ROOT:::}P3;
+====================================================
+>>>>> lnode  INSERTED
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/[ ]/[Kjv|uw=banana(icl>edible_fruit>thing)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{N:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /[Kjv|uw=banana(icl>edible_fruit>thing)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:{N,^biv,^blk:+blk::}"[ ],BLK:::"P3;
+-- other applicable rules --
+R{N:::}{:::}P3;
+====================================================
+>>>>> lnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode  INSERTED
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/[ ]/[Kjv|uw=banana(icl>edible_fruit>thing)]/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{N:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /[Kjv|uw=banana(icl>edible_fruit>thing)]/[ ]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+rnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+==================== APPLIED RULE ==================
+R{:::}{BLK:::}P3;
+-- other applicable rules --
+R{N:::}{:::}P3;
+====================================================
+>>>>> lnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+R{BLK:::}{ROOT:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/[>>]/
+====================================================
+lnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+==================== APPLIED RULE ==================
+:{ROOT,VEND,1p,@present,^@progress,^@complete,^kbiv:+kbiv::}"[[KBIV]],KBIV,VEND,1P,PRS,^PRGR,^CMPL:::"P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+>>>>> rnode  INSERTED
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/B/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+R{BLK:::}{ROOT:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/[B]/>>/
+====================================================
+lnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+rnode >>>>>
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+==================== APPLIED RULE ==================
+R{ROOT:::}{KBIV:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,1p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+>>>>> rnode
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/[B]/[>>]/
+====================================================
+lnode >>>>>
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+==================== APPLIED RULE ==================
+R{KBIV:::}{STAIL:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+>>>>> rnode
+[>>]{}  "" (STAIL) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/B/[>>]/
+====================================================
+lnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+rnode >>>>>
+;;==>> PostEdit
+=================== NODE LIST:00 ===================
+/<</Avgiv|uw=we(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/[B]/[>>]/
+====================================================
+lnode >>>>>
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+Avgiv Kjv LvB
+;;Time  0.0	Sec
+;;Done!

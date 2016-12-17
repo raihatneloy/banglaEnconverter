@@ -2,6 +2,10 @@
 
 {% block content %}
     <p>
-        {{ rule }}
+        {% for foo in rule %}
+            {{ foo  }}
+            <br/>
+        {% endfor %}
+
     </p>
 {% endblock %}

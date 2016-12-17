@@ -25,21 +25,27 @@ def submit(request):
 
             r = requests.post('http://unl.ru/etap-cgi/cgiunl.exe', data=x)
             print r.text
-            ans = ''
+            ans1 = r.text[r.text.find('{unl'):r.text.find('{/unl}')+6]
+            ans = []
+            anss = ''
+            for i in range(len(ans1)):
+                if ans1[i] == '\n':
+                    if anss != '':
+                        ans.append(anss)
 
-            for i in range(len(r.text)):
-                if r.text[i] == '\n':
-                    ans += "<br/>"
+                    anss = ''
                 else:
-                    ans += r.text[i]
+                    anss += ans1[i]
+            ans.append(anss)
 
             print ans
 
-            return render(request, "submit.html",{'rule' : HttpResponse(r.text)})
+            #return render(request, "submit.html",{'rule' : r.text[r.text.find('{unl'):r.text.find('{/unl}')+6]})
+            return render(request, "submit.html", {'rule': (ans)})
 
         else:
             x = "DOMAIN=SPORT&password=guest&TAGERROR=NO&username=UNL_guest&conversion=false&language=en&data=%s&outputmode=text&coding=utf-8" % (
             text2)
             r = requests.post('http://unl.ru/etap-cgi/cgiunl.exe', data=x)
 
-            return render(request, "submit.html",{'rule' : HttpResponse(r.text)})
+            return render(request, "submit.html",{'rule' : HttpResponse(r.text[5:])})

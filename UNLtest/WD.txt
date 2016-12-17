@@ -1,0 +1,981 @@
+;;
+;;
+;;
+[I]{}”also(icl>how,equ>besides)”(FSTFX)<B,0,10>
+[B]{}””(FSTFX)<B,0,10>
+[GZv]{}””(FSTFX)<B,0,10>
+;;
+;;Pronoun Headache
+;;
+[Avwg]{}"i(icl>person)"(PRON,HPRON,1P,SG,SUBJ)<B,2,2>
+[Avgiv]{}"we(icl>group)"(PRON,HPRON,1P,PL,SUBJ)<B,2,2>
+[Avgiv]{}"we(icl>person)"(PRON,HPRON,1P,PL,SUBJ)<B,1,1>
+[Avgiv]{}"i(icl>person)"(PRON,HPRON,1P,PL,SUBJ)<B,0,0>
+[Avgiv]{}"i(icl>group)"(PRON,HPRON,1P,PL,SUBJ)<B,0,0>
+[Zzwg]{}"you(icl>person)"(PRON,HPRON,2P,SG,SUBJ)<B,1,1>
+[ˆZvgiv]{}"you(icl>group)"(PRON,HPRON,2P,PL,SUBJ)<B,1,1>
+[ˆZvgiv]{}"you(icl>person)"(PRON,HPRON,2P,PL,SUBJ)<B,0,0>
+[ZzB]{}"you(icl>person)"(PRON,HPRON,2P,SG,SUBJ,NGL)<B,1,1>
+[ˆZviv]{}"you(icl>group)"(PRON,HPRON,2P,PL,SUBJ,NGL)<B,1,1>
+[ˆZviv]{}"you(icl>person)"(PRON,HPRON,2P,PL,SUBJ,NGL)<B,0,0>
+[Avcwb]{}"you(icl>person)"(PRON,HPRON,2P,SG,SUBJ,HON)<B,1,1>
+[Avcbviv]{}"you(icl>group)"(PRON,HPRON,2P,PL,SUBJ,HON)<B,1,1>
+[Avcbviv]{}"you(icl>person)"(PRON,HPRON,2P,PL,SUBJ,HON)<B,0,0>
+[ˆm]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,SUBJ)<B,2,2>
+[ˆm]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,SUBJ)<B,1,1>
+[I]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THAT,SUBJ)<B,1,1>
+[Iu]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON)<B,1,1>
+[I]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THAT,SUBJ)<B,1,1>
+[Iu]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THAT,SUBJ,HON)<B,1,1>
+[wZwb]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,SUBJ,HON)<B,2,2>
+[Dwb]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON)<B,1,1>
+[wZwb]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,SUBJ,HON)<B,1,1>
+[Dwb]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THAT,SUBJ,HON)<B,1,1>
+[‰]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THIS,SUBJ)<B,1,1>
+[‰]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THIS,SUBJ)<B,1,1>
+[‰u]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON)<B,1,1>
+[‰u]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THIS,SUBJ,HON)<B,1,1>
+[Bwb]{}"he(icl>person)"(PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON)<B,1,1>
+[Bwb]{}"she(icl>person)"(PRON,HPRON,3P,SG,FEM,THIS,SUBJ,HON)<B,1,1>
+[Zviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,CHL)<B,2,2>
+[Zvuiv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,CHL,HON)<B,2,2>
+[‰iv]{}"they(icl>group)"(PRON,HPRON,3P,PL,THIS,SUBJ,CHL)<B,1,1>
+[‰uiv]{}"they(icl>group)"(PRON,HPRON,3P,PL,THIS,SUBJ,CHL,HON)<B,1,1>
+[Bnviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,THIS,SUBJ,SHD)<B,1,1>
+[Bunviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,THIS,SUBJ,SHD,HON)<B,1,1>
+[Zvnviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,SHD)<B,1,1>
+[Zuvnviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,SHD,HON)<B,1,1>
+[Iiv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,CHL)<B,1,1>
+[Iuiv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,CHL,HON)<B,1,1>
+[Dnviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,SHD)<B,1,1>
+[Dunviv]{}"they(icl>group)"(PRON,HPRON,3P,PL,SUBJ,SHD,HON)<B,1,1>
+
+[Zviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,CHL)<B,2,2>
+[Zvuiv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,CHL,HON)<B,2,2>
+[‰iv]{}"they(icl>person)"(PRON,HPRON,3P,PL,THIS,SUBJ,CHL)<B,1,1>
+[‰uiv]{}"they(icl>person)"(PRON,HPRON,3P,PL,THIS,SUBJ,CHL,HON)<B,1,1>
+[Bnviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,THIS,SUBJ,SHD)<B,1,1>
+[Bunviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,THIS,SUBJ,SHD,HON)<B,1,1>
+[Zvnviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,SHD)<B,1,1>
+[Zuvnviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,SHD,HON)<B,1,1>
+[Iiv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,CHL)<B,1,1>
+[Iuiv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,CHL,HON)<B,1,1>
+[Dnviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,SHD)<B,1,1>
+[Dunviv]{}"they(icl>person)"(PRON,HPRON,3P,PL,SUBJ,SHD,HON)<B,1,1>
+
+[Zviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL)<B,0,0>
+[Zvuiv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON)<B,0,0>
+[‰iv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL)<B,0,0>
+[‰uiv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON)<B,0,0>
+[Bnviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD)<B,0,0>
+[Bunviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON)<B,0,0>
+[Zvnviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD)<B,0,0>
+[Zuvnviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON)<B,0,0>
+[Iiv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL)<B,0,0>
+[Iuiv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON)<B,0,0>
+[Dnviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD)<B,0,1>
+[Dunviv]{}"he(icl>group)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON)<B,0,0>
+
+[Zviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL)<B,0,0>
+[Zvuiv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL,HON)<B,0,0>
+[‰iv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,CHL)<B,0,0>
+[‰uiv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,CHL,HON)<B,0,0>
+[Bnviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,SHD)<B,0,0>
+[Bunviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,SHD,HON)<B,0,0>
+[Zvnviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD)<B,0,0>
+[Zuvnviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD,HON)<B,0,0>
+[Iiv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL)<B,0,0>
+[Iuiv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL,HON)<B,0,0>
+[Dnviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD)<B,0,0>
+[Dunviv]{}"she(icl>group)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD,HON)<B,0,0>
+
+
+
+[Zviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL)<B,0,0>
+[Zvuiv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON)<B,0,0>
+[‰iv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL)<B,0,0>
+[‰uiv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON)<B,0,0>
+[Bnviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD)<B,0,0>
+[Bunviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON)<B,0,0>
+[Zvnviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD)<B,0,0>
+[Zuvnviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON)<B,0,0>
+[Iiv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL)<B,0,0>
+[Iuiv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON)<B,0,0>
+[Dnviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD)<B,0,0>
+[Dunviv]{}"he(icl>person)"(PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON)<B,0,0>
+
+[Zviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL)<B,0,0>
+[Zvuiv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL,HON)<B,0,0>
+[‰iv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,CHL)<B,0,0>
+[‰uiv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,CHL,HON)<B,0,0>
+[Bnviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,SHD)<B,0,0>
+[Bunviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,THIS,SUBJ,SHD,HON)<B,0,0>
+[Zvnviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD)<B,0,0>
+[Zuvnviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD,HON)<B,0,0>
+[Iiv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL)<B,0,0>
+[Iuiv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,CHL,HON)<B,0,0>
+[Dnviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD)<B,0,0>
+[Dunviv]{}"she(icl>person)"(PRON,HPRON,3P,PL,FEM,SUBJ,SHD,HON)<B,0,0>
+
+
+;;
+;;
+;; 
+[‰]{}"this(icl>thing,ant>that,equ>it)"(PRON,3P,SG,SUBJ,CHL)<B,0,0>
+[‰]{}"it(icl>thing,ant>that,equ>this)"(PRON,3P,SG,SUBJ,CHL)<B,0,0>
+[‰B]{}"this(icl>thing,ant>that)"(PRON,3P,SG,SUBJ)<B,0,0>
+[I]{}"that(icl>thing)"(PRON,3P,SG,SUBJ,CHL)<B,0,0>
+[H]{}"that(icl>thing)"(PRON,3P,SG,SUBJ)<B,0,0>
+[IB]{}"that"(PRON,3P,SG,SUBJ)<B,0,0>
+[Bnv]{}"this(icl>thing,ant>that)"(PRON,3P,SG,SUBJ,SHD)<B,0,0>
+[Dnv]{}"that"(PRON,3P,SG,SUBJ,SHD)<B,0,0>
+[‰àGjv]{}"these"(PRON,3P,PL,SUBJ,CHL)<B,0,0>
+[‰Bàwj]{}"this"(PRON,3P,PL,SUBJ,SHD)<B,0,0>
+[Hàwj]{}"that"(PRON,3P,PL,SUBJ,SHD)<B,0,0>
+[HàGjv]{}"that"(PRON,3P,PL,SUBJ,CHL)<B,0,0>
+[IBàwj]{}"that"(PRON,3P,PL,SUBJ,SHD)<B,0,0>
+[IàGjv]{}"that"(PRON,3P,PL,SUBJ,CHL)<B,0,0>
+;;
+;;
+;; Pronoun Stems
+[Avgv]{}"i"(PSTEM,HPSTEM,1P)<B,0,3>
+[ˆZvgv]{}"you"(PSTEM,HPSTEM,2P)<B,0,3>
+[ˆZv]{}""(PSTEM,HPSTEM,2P,NGL)<B,0,3>
+[Avcbv]{}""(PSTEM,HPSTEM,2P,HON)<B,0,3>
+[Zv]{}"he"(PSTEM,HPSTEM,3P,CHL)<B,0,3>
+[Zvu]{}"he"(PSTEM,HPSTEM,3P,CHL,HON)<B,0,2>
+[‰]{}"he"(PSTEM,HPSTEM,3P,CHL,THIS)<B,0,2>
+[‰u]{}"he"(PSTEM,HPSTEM,3P,CHL,HON,THIS)<B,0,2>
+;;[I]{}"he"(PSTEM,HPSTEM,3P,CHL,THAT)<B,0,3>
+[Iu]{}"he"(PSTEM,HPSTEM,3P,CHL,HON,THAT)<B,0,2>
+[Zvnv]{}"he"(PSTEM,HPSTEM,3P,SHD)<B,0,2>
+[Zvunv]{}"he"(PSTEM,HPSTEM,3P,SHD,HON)<B,0,2>
+[Bnv]{}"he"(PSTEM,HPSTEM,3P,SHD,THIS)<B,0,2>
+[Bunv]{}"he"(PSTEM,HPSTEM,3P,SHD,HON,THIS)<B,0,2>
+[Dnv]{}"he"(PSTEM,HPSTEM,3P,SHD,THAT)<B,0,2>
+[Dunv]{}"he"(PSTEM,HPSTEM,3P,SHD,HON,THAT)<B,0,2>
+;;
+;;
+;;Suffixes for pronouns
+;;
+[i]{}"PSUFF"(PSUFF,SG,#POS)<B,0,3>
+[G`i]{}"PSUFF"(PSUFF,PL,#POS)<B,0,3>
+;;
+;;
+;;Possesive pronoun
+;;Singular
+[Avgvi]{}"i(icl>person)"(PRON,HPRON,1P,SG,#POS)<B,1,1>
+[ˆZvgvi]{}"you(icl>person)"(PRON,HPRON,2P,SG,#POS)<B,1,1>
+[ˆZvi]{}"you(icl>person)"(PRON,HPRON,2P,SG,NGL,#POS)<B,1,1>
+[Avcbvi]{}"you(icl>person)"(PRON,HPRON,2P,SG,HON,#POS)<B,1,1>
+[Zvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,#POS)<B,2,2>
+[Zvui]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,#POS)<B,2,2>
+[‰i]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,THIS,#POS)<B,1,1>
+[‰ui]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,THIS,#POS)<B,1,1>
+[Ii]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,THAT,#POS)<B,1,1>
+[Iui]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,THAT,#POS)<B,1,1>
+[Zvnvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,#POS)<B,1,1>
+[Zvunvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,#POS)<B,1,1>
+[Bnvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SG,SHD,THIS,#POS)<B,1,1>
+[Bunvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,THIS,#POS)<B,1,1>
+[Dnvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,THAT,#POS)<B,1,1>
+[Dunvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,THAT,#POS)<B,1,1>
+;;Plural
+[AvgvG`i]{}"we(icl>group)"(PRON,HPRON,1P,PL,#POS)<B,1,1>
+[ˆZvgvG`i]{}"you(icl>group)"(PRON,HPRON,2P,PL,#POS)<B,1,1>
+[ˆZvG`i]{}"you(icl>group)"(PRON,HPRON,2P,PL,NGL,#POS)<B,1,1>
+[AvcbvG`i]{}"you(icl>group)"(PRON,HPRON,2P,PL,HON,#POS)<B,1,1>
+[ZvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,#POS)<B,2,2>
+[ZvuG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,#POS)<B,2,2>
+[‰G`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,THIS,#POS)<B,1,1>
+[‰uG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,THIS,#POS)<B,1,1>
+[IG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,THAT,#POS)<B,1,1>
+[IuG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,THAT,#POS)<B,1,1>
+[ZvnvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,#POS)<B,1,1>
+[ZvunvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,#POS)<B,1,1>
+[BnvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SG,SHD,THIS,#POS)<B,1,1>
+[BunvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,THIS,#POS)<B,1,1>
+[DnvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,THAT,#POS)<B,0,2>
+[DunvG`i]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,THAT,#POS)<B,1,1>
+;;
+;;
+;;Objective Pronouns
+;;Singular
+[AvgvGK]{}"we(icl>group)"(PRON,HPRON,1P,SG,#OBJ)<B,0,3>
+[ˆZvgvGK]{}"you(icl>group)"(PRON,HPRON,2P,SG,#OBJ)<B,0,3>
+[ˆZvGK]{}"you(icl>group)"(PRON,HPRON,2P,SG,NGL,#OBJ)<B,0,3>
+[AvcbvGK]{}"you(icl>group)"(PRON,HPRON,2P,SG,HON,#OBJ)<B,0,3>
+[ZvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,#OBJ)<B,0,3>
+[ZvuGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,#OBJ)<B,0,2>
+[‰GK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,THIS,#OBJ)<B,0,2>
+[‰uGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ)<B,0,2>
+[IGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,THAT,#OBJ)<B,0,3>
+[IuGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ)<B,0,2>
+[ZvnvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,#OBJ)<B,0,2>
+[ZvunvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,#OBJ)<B,0,2>
+[BnvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ)<B,0,2>
+[BunvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ)<B,0,2>
+[DnvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,THAT,#OBJ)<B,0,2>
+[DunvGK]{}"he(icl>person)"(PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ)<B,0,2>
+;;Plural
+[AvgvG`iGK]{}"we(icl>group)"(PRON,HPRON,1P,PL,#OBJ)<B,0,3>
+[ˆZvgvG`iGK]{}"you(icl>group)"(PRON,HPRON,2P,PL,#OBJ)<B,0,3>
+[ˆZvG`iGK]{}"you(icl>group)"(PRON,HPRON,2P,PL,NGL,#OBJ)<B,0,3>
+[AvcbvG`iGK]{}"you(icl>group)"(PRON,HPRON,2P,PL,HON,#OBJ)<B,0,3>
+[ZvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,#OBJ)<B,0,3>
+[ZvuG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,#OBJ)<B,0,2>
+[‰G`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,THIS,#OBJ)<B,0,2>
+[‰uG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,THIS,#OBJ)<B,0,2>
+[IG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,THAT,#OBJ)<B,0,3>
+[IuG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,CHL,HON,THAT,#OBJ)<B,0,2>
+[ZvnvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,#OBJ)<B,0,2>
+[ZvunvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,#OBJ)<B,0,2>
+[BnvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SG,SHD,THIS,#OBJ)<B,0,2>
+[BunvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,THIS,#OBJ)<B,0,2>
+[DnvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,THAT,#OBJ)<B,0,2>
+[DunvG`iGK]{}"they(icl>group)"(PRON,HPRON,3P,PL,SHD,HON,THAT,#OBJ)<B,0,2>
+;;
+;;
+;;
+;;Verb Roots
+;;
+;;VEG1
+[Lv]{}"eat(icl>consume>do,agt>living_thing,obj>concrete_thing)"(ROOT,VEND,#AGT,#OBJ,VEG1)<B,0,2>
+[ˆL]{}"eat(icl>consume>do,agt>living_thing,obj>concrete_thing)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG1)<B,0,1>
+[cv]{}"get(icl>do,equ>obtain,src>uw,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,#SRC,VEG1)<B,0,2>
+[ˆc]{}"get(icl>do,equ>obtain,src>uw,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,#SRC,ALT,VEG1)<B,0,1>
+;;VEG1.1
+[Mv]{}"sing(icl>do,agt>living_thing,obj>song)"(ROOT,VEND,#AGT,#OBJ,VEG1.1)<B,0,3>
+;;[ˆM]{}"sing(icl>do,agt>living_thing,obj>song)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG1.1)<B,0,2>
+[MvB]{}"sing(icl>do,agt>living_thing,obj>song)"(ROOT,VEND,#AGT,#OBJ,ALT1,VEG1.1)<B,0,1>
+;
+[Pv]{}"want(icl>desire>be,cob>uw,obj>uw,aoj>thing)"(ROOT,VEND,#AOJ,#OBJ,#COB,VEG1.1)<B,0,3>
+[ˆP]{}"want(icl>desire>be,cob>uw,obj>uw,aoj>thing)"(ROOT,VEND,#AOJ,#OBJ,#COB,ALT,VEG1.1)<B,0,2>
+[PvB]{}"want(icl>desire>be,cob>uw,obj>uw,aoj>thing)"(ROOT,VEND,#AOJ,#OBJ,#COB,ALT1,VEG1.1)<B,0,1>
+;
+[Qv]{}"cover(icl>do,agt>living_thing,obj>thing,man>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,VEG1.1)<B,0,3>
+[ˆQ]{}"cover(icl>do,agt>living_thing,obj>thing,man>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,ALT,VEG1.1)<B,0,2>
+[QvB]{}"cover(icl>do,agt>living_thing,obj>thing,man>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,ALT1,VEG1.1)<B,0,1>
+;;VEG2
+[wb]{}"take(icl>perceive>be,obj>thing,aoj>person,man>uw)"(ROOT,VEND,#AGT,#OBJ,#MAN,VEG2)<B,2,2>
+[ˆb]{}"take(icl>perceive>be,obj>thing,aoj>person,man>uw)"(ROOT,VEND,#AGT,#OBJ,#MAN,#PLF,#PLT,VEG2)<B,2,2>
+[bv]{}"take(icl>hold>do,agt>thing,obj>thing,opl>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,ALT,VEG2)<B,2,2>
+[bv]{}"carry(icl>do,plt>thing,plf>thing,agt>thing,obj>thing,man>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,#PLF,#PLT,ALT,VEG2)<B,2,2>
+
+[Gb]{}"take(icl>hold>do,agt>thing,obj>thing,opl>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,ALT1,VEG2)<B,2,2>
+[Gb]{}"carry(icl>do,plt>thing,plf>thing,agt>thing,obj>thing,man>thing)"(ROOT,VEND,#AGT,#OBJ,#MAN,#PLF,#PLT,ALT1,VEG2)<B,2,2>
+
+;;
+[w`]{}"give"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,VEG2)<B,1,1>
+[ˆ`]{}"give"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT,VEG2)<B,1,1>
+[`v]{}"give"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT1,VEG2)<B,1,1>
+[w`]{}"give(icl>do,equ>hand_over,agt>thing,obj>thing,rec>person)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,VEG2)<B,1,1>
+[ˆ`]{}"give(icl>do,equ>hand_over,agt>thing,obj>thing,rec>person)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT,VEG2)<B,1,1>
+[`v]{}"give(icl>do,equ>hand_over,agt>thing,obj>thing,rec>person)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT1,VEG2)<B,1,1>
+[w`]{}"give(icl>do,agt>volitional_thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,VEG2)<B,1,1>
+[ˆ`]{}"give(icl>do,agt>volitional_thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT,VEG2)<B,1,1>
+[`v]{}"give(icl>do,agt>volitional_thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT1,VEG2)<B,1,1>
+[w`]{}"allow(icl>do,equ>permit,agt>volitional_thing,obj>uw,ben>volitional_thing"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,VEG2)<B,0,0>
+[ˆ`]{}"allow(icl>do,equ>permit,agt>volitional_thing,obj>uw,ben>volitional_thing"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT,VEG2)<B,0,0>
+[`v]{}"allow(icl>do,equ>permit,agt>volitional_thing,obj>uw,ben>volitional_thing"(ROOT,VEND,#AGT,#OBJ,#BEN,#MAN,#INS,ALT1,VEG2)<B,0,0>
+
+
+;; VEG3
+[hv]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,VEG3)<B,0,4>
+[wM]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG3)<B,0,2>
+[ˆM]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT1,VEG3)<B,0,1>
+[Gh]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT2,VEG3)<B,0,3>
+;;
+;;VEG4
+[Qyu]{}"touch(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,VEG4)<B,0,3>
+[GQv]{}"touch(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG4)<B,0,3>
+
+[^y]{}"put(icl>do,agt>thing,obj>thing,plc>thing)"(ROOT,VEND,#PLC,#AGT,#OBJ,VEG4)<B,0,2>
+[G^v]{}"put(icl>do,agt>thing,obj>thing,plc>thing)"(ROOT,VEND,#PLC,#AGT,#OBJ,ALT,VEG4)<B,0,2>
+
+[÷]{}"lay(icl>do,plc>thing,agt>thing)"(ROOT,VEND,#AGT,#OBJ,VEG4)<B,0,1>
+[Gkv]{}"lay(icl>do,plc>thing,agt>thing)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG4)<B,0,1>
+
+[ay]{}"wash(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,VEG4)<B,0,3>
+[Gav]{}"wash(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG4)<B,0,3>
+;;
+;;VEG5
+[b]{}"not(icl>do,agt>thing)"(ROOT,VEND,#AGT,VEG5)<B,0,3>
+;;
+;;VEG6
+[`y]{}"(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,VEG6)<B,0,3>
+[ˆ`v]{}"(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,ALT,VEG6)<B,0,3>
+
+[by]{}"go(icl>do,agt>thing)"(ROOT,VEND,#AGT,VEG6)<B,0,2>
+[Gbv]{}"go(icl>do,agt>thing)"(ROOT,VEND,#AGT,ALT,VEG6)<B,0,2>
+
+[i‚]{}"go(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,VEG6)<B,0,1>
+[Giv]{}"go(icl>do,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG6)<B,0,1>
+;;
+;;VEG7
+[j]{}"take(icl>do,plt>place,plf>place,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,#OBJ,VEG7)<B,0,3>
+[j]{}"take(icl>do,plt>place,plf>place,agt>thing,obj>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,#OBJ,VEG7)<B,0,3>
+;;
+;;VEG8
+[n]{}"be(aoj>thing)"(ROOT,VEND,#AOJ,VEG8)<B,0,3>
+;;
+;;VEG9
+[av]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,2>
+[Ga]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,2>
+[avB]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,2>
+
+[bv]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT1,VEG9)<B,0,1>
+[Gb]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT1,VEG9)<B,0,1>
+[bvB]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT1,VEG9)<B,0,1>
+
+[ev]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT2,VEG9)<B,0,3>
+[Ge]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT2,VEG9)<B,0,3>
+[evB]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT2,VEG9)<B,0,3>
+
+;;
+;;VEG10
+
+[K]{}"speak(icl>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,VEG9)<B,0,2>
+[KB]{}"speak(icl>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,2>
+
+
+[e]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,VEG9)<B,0,3>
+[eB]{}"(icl>move>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,3>
+
+
+[i]{}"stay(icl>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,VEG9)<B,0,1>
+[iB]{}"stay(icl>do,plt>place,plf>place,agt>thing)"(ROOT,VEND,#AGT,#PLF,#PLT,ALT,VEG9)<B,0,1>
+
+;;Verb roots that create verbs of feelings
+[fvjevm&]{}"love(icl>feeling>be,obj>thing,aoj>preson"()<B,0,0>
+
+;;Verbal Inflexions
+;; 
+[B]{}"KBIV"(KBIV,VEND,CEND,1P,PRS)<B,0,0>
+[I]{}"KBIV"(KBIV,VEND,2P,PRS)<B,0,0>
+[A]{}"KBIV"(KBIV,CEND,2P,PRS)<B,0,0>
+[b]{}"KBIV"(KBIV,VEND,2P,PRS,HON)<B,0,0>
+[‰b]{}"KBIV"(KBIV,CEND,2P,PRS,HON)<B,0,0>
+[m]{}"KBIV"(KBIV,VEND,2P,PRS,NGL)<B,0,0>
+[Bm]{}"KBIV"(KBIV,CEND,2P,PRS,NGL)<B,0,0>
+[q]{}"KBIV"(KBIV,VEND,3P,PRS)<B,0,0>
+[‰]{}"KBIV"(KBIV,CEND,3P,PRS)<B,0,0>
+[b]{}"KBIV"(KBIV,VEND,3P,PRS,HON)<B,0,0>
+[‰b]{}"KBIV"(KBIV,CEND,3P,PRS,HON)<B,0,0>
+;;
+[wœQ]{}"KBIV"(KBIV,VEND,1P,PRS,PRGR,CHL)<B,0,0>
+[wQ]{}"KBIV"(KBIV,CEND,1P,PRS,PRGR,CHL)<B,0,0>
+[GœQv]{}"KBIV"(KBIV,VEND,2P,PRS,PRGR,CHL)<B,0,0>
+[GQv]{}"KBIV"(KBIV,CEND,2P,PRS,PRGR,CHL)<B,0,0>
+[GœQb]{}"KBIV"(KBIV,VEND,2P,PRS,PRGR,HON,CHL)<B,0,0>
+[GQb]{}"KBIV"(KBIV,CEND,2P,PRS,PRGR,HON,CHL)<B,0,0>
+[wœQm]{}"KBIV"(KBIV,VEND,2P,PRS,PRGR,NGL,CHL)<B,0,0>
+[wQm]{}"KBIV"(KBIV,CEND,2P,PRS,PRGR,NGL,CHL)<B,0,0>
+[GœQ]{}"KBIV"(KBIV,VEND,3P,PRS,PRGR,CHL)<B,0,0>
+[GQ]{}"KBIV"(KBIV,CEND,3P,PRS,PRGR,CHL)<B,0,0>
+[GœQb]{}"KBIV"(KBIV,VEND,3P,PRS,PRGR,HON,CHL)<B,0,0>
+[GQb]{}"KBIV"(KBIV,CEND,3P,PRS,PRGR,HON,CHL)<B,0,0>
+;;
+[GqwQ]{}"KBIV"(KBIV,VEND,1P,PRS,CMPL,CHL)<B,0,0>
+[‰wQ]{}"KBIV"(KBIV,CEND,1P,PRS,CMPL,CHL)<B,0,0>
+[GqGQv]{}"KBIV"(KBIV,VEND,2P,PRS,CMPL,CHL)<B,0,0>
+[‰GQv]{}"KBIV"(KBIV,CEND,2P,PRS,CMPL,CHL)<B,0,0>
+[GqGQb]{}"KBIV"(KBIV,VEND,2P,PRS,CMPL,HON,CHL)<B,0,0>
+[‰GQb]{}"KBIV"(KBIV,CEND,2P,PRS,CMPL,HON,CHL)<B,0,0>
+[GqwQm]{}"KBIV"(KBIV,VEND,2P,PRS,CMPL,NGL,CHL)<B,0,0>
+[‰wQm]{}"KBIV"(KBIV,CEND,2P,PRS,CMPL,NGL,CHL)<B,0,0>
+[GqGQ]{}"KBIV"(KBIV,VEND,3P,PRS,CMPL,CHL)<B,0,0>
+[‰GQ]{}"KBIV"(KBIV,CEND,3P,PRS,CMPL,CHL)<B,0,0>
+[GqGQb]{}"KBIV"(KBIV,VEND,3P,PRS,CMPL,HON,CHL)<B,0,0>
+[‰GQb]{}"KBIV"(KBIV,CEND,3P,PRS,CMPL,HON,CHL)<B,0,0>
+;;
+;; 
+[jvg]{}"KBIV"(KBIV,VEND,CEND,1P,PST,CHL)<B,0,0>
+[Gj]{}"KBIV"(KBIV,VEND,CEND,2P,PST,CHL)<B,0,0>
+[Gjb]{}"KBIV"(KBIV,VEND,CEND,2P,PST,HON,CHL)<B,0,0>
+[wj]{}"KBIV"(KBIV,VEND,CEND,2P,PST,NGL,CHL)<B,0,0>
+[j]{}"KBIV"(KBIV,VEND,CEND,3P,PST,CHL)<B,0,0>
+[Gjb]{}"KBIV"(KBIV,VEND,CEND,3P,PST,HON,CHL)<B,0,0>
+;;
+[wœQjvg]{}"KBIV"(KBIV,VEND,1P,PST,PRGR,CHL)<B,0,0>
+[wQjvg]{}"KBIV"(KBIV,CEND,1P,PST,PRGR,CHL)<B,0,0>
+[wœQGj]{}"KBIV"(KBIV,VEND,2P,PST,PRGR,CHL)<B,0,0>
+[wQGj]{}"KBIV"(KBIV,CEND,2P,PST,PRGR,CHL)<B,0,0>
+[wœQGjb]{}"KBIV"(KBIV,VEND,2P,PST,PRGR,HON,CHL)<B,0,0>
+[wQGjb]{}"KBIV"(KBIV,CEND,2P,PST,PRGR,HON,CHL)<B,0,0>
+[wœQwj]{}"KBIV"(KBIV,VEND,2P,PST,PRGR,NGL,CHL)<B,0,0>
+[wQwj]{}"KBIV"(KBIV,CEND,2P,PST,PRGR,NGL,CHL)<B,0,0>
+[wœQj]{}"KBIV"(KBIV,VEND,3P,PST,PRGR,CHL)<B,0,0>
+[wQj]{}"KBIV"(KBIV,CEND,3P,PST,PRGR,CHL)<B,0,0>
+[wœQGjb]{}"KBIV"(KBIV,VEND,3P,PST,PRGR,HON,CHL)<B,0,0>
+[wQGjb]{}"KBIV"(KBIV,CEND,3P,PST,PRGR,HON,CHL)<B,0,0>
+;;
+[GqwQjvg]{}"KBIV"(KBIV,VEND,1P,PST,CMPL,CHL)<B,0,0>
+[‰wQjvg]{}"KBIV"(KBIV,CEND,1P,PST,CMPL,CHL)<B,0,0>
+[GqwQGj]{}"KBIV"(KBIV,VEND,2P,PST,CMPL,CHL)<B,0,0>
+[‰wQGj]{}"KBIV"(KBIV,CEND,2P,PST,CMPL,CHL)<B,0,0>
+[GqwQGjb]{}"KBIV"(KBIV,VEND,2P,PST,CMPL,HON,CHL)<B,0,0>
+[‰wQGjb]{}"KBIV"(KBIV,CEND,2P,PST,CMPL,HON,CHL)<B,0,0>
+[GqwQwj]{}"KBIV"(KBIV,VEND,2P,PST,CMPL,NGL,CHL)<B,0,0>
+[‰wQwj]{}"KBIV"(KBIV,CEND,2P,PST,CMPL,NGL,CHL)<B,0,0>
+[GqwQj]{}"KBIV"(KBIV,VEND,3P,PST,CMPL,CHL)<B,0,0>
+[‰wQj]{}"KBIV"(KBIV,CEND,3P,PST,CMPL,CHL)<B,0,0>
+[GqwQGjb]{}"KBIV"(KBIV,VEND,3P,PST,CMPL,HON,CHL)<B,0,0>
+[‰wQGjb]{}"KBIV"(KBIV,CEND,3P,PST,CMPL,HON,CHL)<B,0,0>
+;;
+;;
+[e]{}"KBIV"(KBIV,VEND,CEND,1P,FUT,CHL)<B,0,0>
+[Gev]{}"KBIV"(KBIV,VEND,CEND,1P,FUT,CHL)<B,1,1>
+[Ge]{}"KBIV"(KBIV,VEND,CEND,2P,FUT,CHL)<B,0,0>
+[Geb]{}"KBIV"(KBIV,VEND,CEND,2P,FUT,HON,CHL)<B,0,0>
+[we]{}"KBIV"(KBIV,VEND,CEND,2P,FUT,NGL,CHL)<B,0,0>
+[Ge]{}"KBIV"(KBIV,VEND,CEND,3P,FUT,CHL)<B,0,0>
+[Geb]{}"KBIV"(KBIV,VEND,CEND,3P,FUT,HON,CHL)<B,0,0>
+;;
+[Gq]{Gq}""(KBIV,VEND,INFT,CHL)<B,0,0>
+[‰]{Gq}""(KBIV,CEND,INFT,CHL)<B,0,0>
+[GZ]{GZ}""(KBIV,VEND,CEND,INFT,CHL)<B,0,0>
+[Gj]{Gj}""(KBIV,VEND,CEND,INFT,CHL)<B,0,0>
+;;
+;; ;; ^vK - 1P
+[^vwK]{}"live"(VERB,#PLC,#AOJ,1P,PRS,CHL)<B,0,0>
+[^vKwQ]{}"live"(VERB,#PLC,#AOJ,1P,PRS,PRGR,CHL)<B,0,0>
+[ˆ^GKwQ]{}"live"(VERB,#PLC,#AOJ,1P,PRS,CMPL,CHL)<B,0,0>
+[wQjvg]{}"live"(VERB,#PLC,#AOJ,1P,PST,CHL)<B,0,0>
+[^vKwQjvg]{}"live"(VERB,#PLC,#AOJ,1P,PST,PRGR,CHL)<B,0,0>
+[ˆ^GKwQjvg]{}"live"(VERB,#PLC,#AOJ,1P,PST,CMPL,CHL)<B,0,0>
+[^vKe]{}"live"(VERB,#PLC,#AOJ,1P,FUT,CHL)<B,0,0>
+;; ^vK - 2P
+[^vK]{}"live"(VERB,#PLC,#AOJ,2P,PRS,CHL)<B,0,0>
+[^vKQ]{}"live"(VERB,#PLC,#AOJ,2P,PRS,PRGR,CHL)<B,0,0>
+[ˆ^GKQ]{}"live"(VERB,#PLC,#AOJ,2P,PRS,CMPL,CHL)<B,0,0>
+[wQGj]{}"live"(VERB,#PLC,#AOJ,2P,PST,CHL)<B,0,0>
+[^vKwQGj]{}"live"(VERB,#PLC,#AOJ,2P,PST,PRGR,CHL)<B,0,0>
+[ˆ^GKwQGj]{}"live"(VERB,#PLC,#AOJ,2P,PST,CMPL,CHL)<B,0,0>
+[^vKGe]{}"live"(VERB,#PLC,#AOJ,2P,FUT,CHL)<B,0,0>
+[^vK]{}"live"(VERB,#PLC,#AOJ,2P,PRS,NGL,CHL)<B,0,0>
+[^vKwQm]{}"live"(VERB,#PLC,#AOJ,2P,PRS,PRGR,NGL,CHL)<B,0,0>
+[ˆ^GKwQm]{}"live"(VERB,#PLC,#AOJ,2P,PRS,CMPL,NGL,CHL)<B,0,0>
+[wQwj]{}"live"(VERB,#PLC,#AOJ,2P,PST,NGL,CHL)<B,0,0>
+[^vKwQwj]{}"live"(VERB,#PLC,#AOJ,2P,PST,PRGR,NGL,CHL)<B,0,0>
+[ˆ^GKwQwj]{}"live"(VERB,#PLC,#AOJ,2P,PST,CMPL,NGL,CHL)<B,0,0>>
+[^vKwe]{}"live"(VERB,#PLC,#AOJ,2P,FUT,NGL,CHL)<B,0,0>
+[^vGKb]{}"live"(VERB,#PLC,#AOJ,2P,PRS,HON,CHL)<B,0,0>
+[^vKGQb]{}"live"(VERB,#PLC,#AOJ,2P,PRS,PRGR,HON,CHL)<B,0,0>
+[ˆ^GKGQb]{}"live"(VERB,#PLC,#AOJ,2P,PRS,CMPL,HON,CHL)<B,0,0>
+[wQGjb]{}"live"(VERB,#PLC,#AOJ,2P,PST,HON,CHL)<B,0,0>
+[^vKwQGjb]{}"live"(VERB,#PLC,#AOJ,2P,PST,PRGR,HON,CHL)<B,0,0>
+[ˆ^ˆKwQGjb]{}"live"(VERB,#PLC,#AOJ,2P,PST,CMPL,HON,CHL)<B,0,0>
+[^vKGeb]{}"live"(VERB,#PLC,#AOJ,2P,FUT,HON,CHL)<B,0,0>
+;; ^vK - 3P
+[^vGK]{}"live"(VERB,#PLC,#AOJ,3P,PRS,CHL)<B,0,0>
+[^vKGQ]{}"live"(VERB,#PLC,#AOJ,3P,PRS,PRGR,CHL)<B,0,0>
+[ˆ^GKGQ]{}"live"(VERB,#PLC,#AOJ,3P,PRS,CMPL,CHL)<B,0,0>
+[wQj]{}"live"(VERB,#PLC,#AOJ,3P,PST,CHL)<B,0,0>
+[^vKwQj]{}"live"(VERB,#PLC,#AOJ,3P,PST,PRGR,CHL)<B,0,0>
+[ˆ^GKwQj]{}"live"(VERB,#PLC,#AOJ,3P,PST,CMPL,CHL)<B,0,0>
+[^vKGe]{}"live"(VERB,#PLC,#AOJ,3P,FUT,CHL)<B,0,0>
+;;
+;;
+;;
+;;
+;;Adverbs
+;; 
+[`Ë‚Z]{}"quickly(icl>how)"(ADV,VEND)<B,0,0>
+[axGi]{}"slowly(icl>how)"(ADV,VEND)<B,0,0>
+[AvGÕ¦]{}"slowly(icl>how"(ADV,VEND)<B,0,0>
+[ZvovZvwo]{}"quickly(icl>how)"(ADV,VEND)<B,0,0>
+;;[fvjfvGe]{}""(ADV,VEND)<B,0,0>
+;;[fvjKGi]{}""(ADV,VEND)<B,0,0>
+[f„jfvGe]{}"wrongly(icl>how)"(ADV,VEND)<B,0,0>
+[f„jKGi]{}"mistakenly(icl>how)"(ADV,VEND)<B,0,0>
+;;
+;;
+;;Nouns
+;; 
+[AÝGdvWÆ]{}"oxford(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Açj]{}"region(icl>body_part>thing,equ>area)"(N,#PLC, NCOM, CEND)<B,0,0> 
+[A^ÆbxwZ] {}"economics(icl>social_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[AÕ¡vbv]{}"astana(iof>capital>thing)" (N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AwÕ¡Èqv]{}"austria(iof>european_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AGÕ¡Èwjqv]{}"australia(iof>country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AÅvGãvjv]{}"angola(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AÅvG´£viv]{}"andorra(iof>european_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvBmjÅv´£]{}"iceland(iof>island>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Avò×v]{}"accra(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvOzi]{}"grape(icl>edible_fruit>thing)"(N,NCOM,#OBJ,CEND)<B,0,0>
+[Avâviv]{}"ankara(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Avãyi]{}"grape(icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[AvRvievBRvb]{}"azerbaijan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[AvUNwiqv]{}"atgharia (iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Avwóm Avevev]{}"addis_ababa(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Av´ŸvbvbvwiGfv]{}"antananarivo(iof>national_capital>thing)" (N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvGcj]{}"apple(icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[AvdMvwbÕ¦vb]{}"afghanistan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[AvwdÌKv]{}"africa(iof>continent>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Avwe`Rvb]{}"abidjan(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Ave&LvwRqv]{}"abkhazia(iof>state>thing,equ>abkhaz)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AveyRv]{}"abuja(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Aveyavwe]{}"abu_dhabi(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[Avg]{}"mango(icl>edible_fruit>thing)"(N,NCOM,#OBJ,CEND)<B,0,0>
+[AvGgwiKv]{}"america(iof>land>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvÁÃvb]{}"amman(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Avg&Õ¡vGWÆg]{}"amsterdam(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[AvqvijÅv´£]{}"ireland(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Avi‚ev]{}"aruba(iof>island>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvGRÆw´Ÿbv]{}"argentina(iof>south_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvGgÆwbqv]{}"armenia(iof>asian_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvjwRqvmÆ]{}"algiers(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[AvjGRwiqv]{}"algeria(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvjGewbqv]{}"albania(iof>balkan_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[AvGjv] {}"light(icl>illuminate>be,obj>thing,aoj>thing)"(N,NCOM,STAT, #AOJ, VEND, AEND)<B,0,0>
+[Avmgviv]{}"asmara(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[BDGiwkqv]{}"eurasia(iof>continent>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[BDGivc]{}"europe(iof>continent>thing)"N,#PLC, NPRO, CEND)<B,0,0>
+[BsGiwR] {}"english(icl>west_germanic>thing)"N,LOGY, NCOM, VEND)<B,0,0>
+[BsjÅv´£]{}"england(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[BRivBj]{}"israel(iof>kingdom>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[BZvwj]{}"italy(iof>european_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[Bw^Iwcqv]{}"ethiopia(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[BG±`vGbwkqv]{}"indonesia(iof>country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[BGqGgb]{}"yemen(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[BivK]{}" iraq(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Bivb]{}" iran(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Bwiwòqv]{}"eritrea(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Bmjvgvev`]{}"islamabad(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Ck¼i`x]{}"ishwardi(iof>city>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[D`Æy] {}"urdu(icl>sanskrit>thing)"(N,LOGY, NCOM, VEND)<B,0,0>
+[DRGewKÕ¦vb]{}"uzbekistan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[DGovRvnvR]{}"aeroplane(icl>heavier-than-air_craft>thing,equ>airplane)"(N,NCOM,CEND)<B,0,0>
+[Dw«¿`]{}" plant(icl>organism>thing)"(N, NCOM, #OBJ,CEND)<B,0,0>
+[FZz]{}"season(icl>time_period>thing)"(N,#TIM, NCOM, VEND)<B,0,0>
+[‰G^´Ö]{}"athens(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[‰´ŸvwÙÆKv]{}"antarctica(iof>continent>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[‰j mvjGf`i] {}"el_salvador(iof>central_american_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[‰jvKv]{}"area(icl>extent>abstract_thing,obj>thing)"(N,#PLC, NCOM, VEND, AEND)<B,1,1>
+[‰jvKv]{}"area(icl>region)"(N,#PLC, NCOM, VEND, AEND)<B,0,0>
+[‰wkqv]{}"asia(iof>continent>thing)"(N,#PLC, NCOM, VEND, AEND)<B,0,0>
+[‰GÕ¦vwbqv]{}"estonia(iof>baltic_state>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Iqvim]{}"warsaw(iof>national_capital>thing,equ>warszawa)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[IqvwksUb]{}"washington(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[KÝevRvi]{}"coxsbazar(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KGãv]{}"congo(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KGãv]{}"congo(iof>river>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KwÁ•DUvi-weævb] {}"computer science (icl>engineering>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[KGÁ¼vwWqv]{}"cambodia(iof>asian_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Kjg]{}"pen(icl>writing_implement>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[KjGÁ¼v]{}"colombo(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Kgjv]{}"orange(icl>edible_fruit>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[Kjv]{}"banana(icl>edible_fruit>thing)"(N,NCOM, #OBJ,VEND)<B,1,1>
+[Kjv]{}"banana(icl>herb>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[KGjR]{}"college(iof>educational_institution)"(N,#PLC,NCOM,CEND)<B,0,0>
+[KGjR]{}" college(icl>building_complex>thing)"(N,#PLC,NCOM,CEND)<B,1,1>
+[KGjvwÁ¼qv]{}"colombia(iof>south_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KvuVvj]{}"jackfruit(icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[KvK]{}"crow(icl>corvine bird>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[KvRvwLÕ¦vb]{}"kazakhstan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KvVGVvKiv]{}"woodpecker(icl>piciform bird>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[KvVgv´£z] {}"kathmandu(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[KvbvWv]{}"canada(iof>north_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Kveyj] {}"kabul(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KvÁ•vjv]{}"kampala(iof>national_capital>thing)"(N,#PLC, NPRO, VEND. AEND)<B,0,0>
+[KvqGiv]{}"asmara(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KvGjvRvg]{}"black_berry(icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[wKDev]{}"cuba(iof>country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wKMvwj]{}"kigali(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wKGqf]{}"kiev(iof>capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wKiwMÕ¦vb]{}"kyrgyzstan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wKGkviMé]{}"kishorganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KzKzi]{}"dog(icl>canine>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[Kzwbqv]{}"kaunia(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Kzwgi]{}"crocodile(icl>crocodilian_reptile>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[KzwgÍÏv]{}"comilla(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Kzqvjvjvgcyi]{}"kuala_lumpur(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KzGqZ]{}"kuwait(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KzwÓ¡qv]{}"kushtia(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆKwbqv]{}"kenya(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KbÅv]{}"daughter(icl>female_offspring>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[Kwd]{}"coffee(icl>beverage>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[KwÁ•DUvi]{}"computer(icl>machine>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[ˆKvwKj]{}"cuckoo(icl>cuculiform_bird>thing)"(N, NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[ˆKvwiqv]{}"korea(iof>peninsula>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆKvjKvZv]{}"kolkata(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆKvÓ¡vwiKv]{}"costa_rica(iof>central_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[KÅvGgi‚b]{}"cameroun(iof>african_country>thing,equ>cameroon)"(N,#PLC, NPRO, CEND)<B,0,0>
+[KÅvÕ¡wim]{}"castries(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆò×vGqwkqv]{}"croatia(iof>european_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Lig‚R]{}"cantaloup(icl>sweet_melon>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[LvZÆzg]{}"khartoum(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Lyjbv]{}"khulna(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆLuKwkqvj]{}"fox(icl>canine>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[ˆLRyi]{}"date (icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[Mi‚]{}"cow(icl>cattle>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[MãvQov]{}"gangachara(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Mwj]{}"road(icl>way)"(N,#PLC, NCOM, VEND)<B,0,0>
+[MwYZ] {}"mathematics (icl>science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[MvQ]{}"tree(icl>woody_plant>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[MvRv]{}"gaza(iof>geographical_area>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Mvwo]{}"car(icl>motor_vehicle>thing)"(N, NCOM, #OBJ,VEND)<B,1,1>
+[Mvav] {}"ass (icl>equine>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[Mvqvbv]{}"guyana(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[MvwÁ¼qv]{}"gambia(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wMwb]{}"guinea(iof>african_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[àqvg]{}"guam(iof>island>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[àqvGZgvjv] "guatemala(iof>central_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[MÅveb]{}"gabon(iof>african_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[MÉvg]{}"village(iof>settlement>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wMÉK] {}"greek(icl>indo-european>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[wMÉm]{}"greece(iof>balkan_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[MÉxÓÃ]{}"summer(icl>season>thing)"(N,#TIM, NCOM, VEND, AEND)<B,0,0>
+[MÉxÓÃKvj]{}"summer(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[[ˆMÉU weËGUb]{}"great britain(iof>kingdom>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wMÉbjÅv´£]{}"greenland(iof>island>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆMÉbvWv]{}"grenada(iof>country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[N¥Ÿv]{}"hour(icl>time_unit>abstract_thing)"(N,#TIM, NPRO, VEND, AEND)<B,0,0>
+[NvU]{}"ghat(icl>stairway>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[Nvbv]{}"ghana(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Nvm]{}"grass(icl>gramineous_plant>thing)"(N,#OBJ, NMAT, CEND)<B,0,0>
+[Nvm Lv]{}"grass(icl>shoot>do,agt>thing,obj>thing)"(ROOT,#AGT, #OBJ, VEND, VEG1)<B,0,0>
+[Nvm ˆL]{}"grass(icl>shoot>do,agt>thing,obj>thing)"(ROOT,#AGT, #OBJ, VEND, ALT, VEG1)<B,0,0>
+[NyNy]{}"dove(icl>pigeon>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[ˆNvov]{}"horse(icl>equine>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[PëMÉvg]{}"chittagong(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[PozB]{}"sparrow(icl>passerine>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[PovB]{}"sparrow(icl>passerine>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[Pv]{}"tea(icl>beverage>thing)"(N, NMAT,NCOM, #OBJ,VEND)<B,0,0>
+[PvUGgvni]{}"chatmohar(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Pv`]{}"chad(iof>african_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[PvgP]{}"spoon(icl>remove>do,agt>thing,obj>thing)"(N,#OBJ,INST,NCON,CEND)<B,0,0>
+[wPwj]{}"chile(iof>south_american_country>thing)"(N,#PLC,NPRO, VEND)<B,0,0>
+[Pxb]{}"china(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Pxbvfvlv] {}"chinese(icl>sinitic>thing)"(N,LOGY, NCOM, VEND, AEND)<B,0,0>
+[QvMj]{}"goat(icl>bovid>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[Qv`]{}"roof(icl>protective_covering>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[ˆQGj]{}"boy(icl>child>person,ant>girl>thing)"(N,NCOM, HUMN,VEND)<B,1,1>
+[ˆQGj]{}"son(icl>male_offspring>thing)"(N,NCOM, HUMN,VEND)<B,0,0>
+[RwRÆqv]{}"georgia(iof>american_state>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[RwRÆqv]{}"georgia(iof>asian_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[RWÆvb]{}"jordan(iof>country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[RWÆvb]{}"jordan(iof>river>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Rj]{}"water(icl>matter,equ>h2o)"(N,NMAT,NCOM, #OBJ,CEND)<B,0,0>
+[RvKvZÆv]{}" jakarta(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[RvGMÉe]{}"zagreb(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Rvcvb]{}"japan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Rvg]{}"berry(icl>edible_fruit>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[Rvgvjcyi]{}"jamalpur(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[RvwÁ¼qv]{}"zambia(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[RvgÆvb]{}"german(icl>west_germanic>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[RvgÆvwb]{}"germany(iof>european_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wReywZ]{}"Djibouti(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wRÁ¼veyGq]{}"zimbabwe(iof>african_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[Rxeweævb]{}"biology (icl>life_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[ˆReËv]{}"zebra(icl>equine>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[ˆRi‚RvGjg] "jerusalem(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[RÅvgvBKv] "jamaica(iof>country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[ˆRÅvwZweÆævb] {}"astronomy(icl>physics>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[SvjKvwV]{}"jhalokati(iof>city>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[UGgGUv]{}"{}" tomato(icl>solanaceous_vegetable>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[UvãvBj]{}"tangail(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Wvwjqv]{}"dahlia(icl>flower>thing)"(N, NCOM, #OBJ, VEND)<B,0,0>
+[WvweÐb]{}"dublin(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆWbgvKÆ]{}"denmark(iof>Scandinavian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[XvKv]{}"dacca(iof>national_capital>thing,equ>dhaka)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ZvivMé]{}"taraganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ZziÕ•]{}"turkey (iof>country>thing)"(N,#PLC, NPRO, CEND, COM)<B,0,0>
+[^vBjÅv´£]{}"thailand(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[w`b]{}"day(icl>period>time,icl>unit)"(N,#TIM, NCOM, CEND)<B,0,0>
+[w`bvRcyi]{}"dinajpur(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[`ya]{}"milk(icl>beverage)"(N, NMAT,NCOM, #OBJ, NMAT,CEND)<B,0,0>
+[`ya]{}"milk(icl>dairy_product>thing)"(N, NMAT,NCOM, #OBJ, NMAT,CEND)<B,1,1>
+[`ycyi]{}"noon(icl>day>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[ˆ`k]{}"country(iof>geographical_area>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[ˆ`vnv]{}"doha(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[aGbk]{}"hornbill(icl>coraciiform_bird>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[bMi]{}"city(icl>administrative_district>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[b`]{}"river(icl>stream>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[b`x]{}"river(icl>stream>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[bqvw`ÍÏx]{}"new delhi(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, NGEND)<B,0,0>
+[bvBGRwiqv]{}"nigeria(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[bvGUvi]{}"natore(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[bvwgweqv]{}"namibia(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[bviGKj]{}"coconut(icl> food>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[bvivqYMé]{}"narayanganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆb`vijÅv´£]{}"netherland(iof>european_country>thing, equ>holland)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆbvqvLvwj]{}"noakhali(iof>city>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[ˆbcvj]{}"nepal(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[cÞx] {}" bird(icl>vertebrate>thing)"(N,NCOM, #OBJ,VEND)<B,0,0> 
+[cUzqvLvwj]{}"patuakhali(iof>city>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[c^]{}"road(icl>way>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[c`v^Æweævb]{}"physics (icl>natural_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[cwiGekweævb]{}"environmental science (icl>biology>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[cwÍÏMÉvg]{}"village(icl>community>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[cvwL] {}"bird(icl>vertebrate>thing)"(N,NCOM, #OBJ,VEND)<B,0,0> 
+[cvZv]{}"leaf(icl>plant_organ>thing)"(N, NCOM, #OBJ, VEND)<B,0,0>
+[cvwb]{}"water(icl>matter,equ>h2o)"(N, NMAT, NCOM, #OBJ,VEND)<B,0,0>
+[cvebv]{}"pabna(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[cvqiv]{}"pigeon(icl>columbiform_bird>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[wcwKs]{}"peking(iof>national_capital>thing)"(N,#PLC, NPRO, CEND, NGEND)<B,0,0>
+[wcZv]{}"father(icl>parent>living_thing,ant>mother,pos>child)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[cxiMé]{}"pirganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[cxiMvQv]{}"pirgachha(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[cyò]{}"son(icl>male_offspring>thing)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[ˆcuPv]{}"owl(icl>bird_of_prey>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[ˆcuGc]{}"papaya(icl>edible_fruit>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[ˆcPK]{}"owl(icl>bird_of_prey>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[ˆcvjÅv´£]{}"poland(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆcŒimfv]{}"municipality(iof>urban area>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[cÅvwim]{}"paris(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[cÉG`k]{}"province(iof>administrative_district>thing, equ>state)"(N,#PLC, NCOM, CEND)<B,0,0>
+[cÉfvZ]{}"morning(icl>time_period>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[cÉvYweævb] {}"bioscience(icl>natural_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[divwm] {}"french(icl>romance>thing)"(N,LOGY, NCOM, VEND)<B,0,0>
+[dwi`cyi]{}"faridpur(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[dj]{}"fruit(icl>icl>reproductive_structure>thing)"(N, NCOM, #OBJ, CEND)<B,0,0>
+[wdwR]{}"fiji (iof>country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wdbjÅv´£]{}"finland(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[dzj]{}"flower(icl>angiosperm>thing)"(N, NCOM, #OBJ, CEND)<B,0,0>
+[dÌv´Ö]{}"france(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eB]{}"book(icl>publication>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[eD]{}"wife(icl>spouse>thing)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[eK]{}"heron(icl>wading_bird>thing)"(N, NCOM, #OBJ, ANIM,CEND)<B,0,0>
+[eàov]{}"bogra(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ermi]{}"year (icl>unit>abstract_thing,com>calendar)"(N,#TIM, NCOM, CEND)<B,0,0>
+[e`iMé]{}"badarganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ebGgviM]{}"fowl(icl>gallinaceous_bird>thing)"(N, NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[ewikvj]{}"barisal(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ewgÆ] {}"burmese(icl>magadhan>thing)"(N,LOGY, NCOM, VEND)<B,0,0>
+[elÆv]{}"rainy season(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[elÆvKvj]{}"rainy season(icl>season>thing)"(N,#TIM, NCOM, VEND, AEND)<B,0,0>
+[ewjwfqv]{}"bolivia(iof>south_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[emwbqv]{}"bosnia(iof>European country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[evsjv]{}"bengali(icl>magadhan>thing)"(N,LOGY, NCOM, VEND, AEND)<B,0,0>
+[evsjvG`k]{}"bangladesh(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[evKz]{}"baku(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[evM`v`]{}"baghdad(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[evN]{}"tiger(icl>big_cat>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[evãyB]{}"bangui(icl>national capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[evwo]{}"home(icl>residence>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[evwo]{}"home(icl>residence>thing,pos>person)"(N,#PLC, NCOM, VEND)<B,1,1>
+[evbRyj]{}"banjul(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[evev]{}"father(icl>person)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[eveyB]{}"baya(icl>weaverbird>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[evgvGKv]{}"bamako(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[evievG`vm]{}"barbados(iof>island>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[evigyWv]{}"bermuda(iof>island>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[evgÆv]{}"burma(iof>asian_country>thing,equ>myanmar)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[evwjÆb]{}"berlin(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[evjK]{}"boy(icl>child>person,ant>girl)"(N,NCOM,HUMN,CEND)<B,0,0>
+[evwjKv]{}"girl(icl>child>person,ant>boy)"(N,NCOM,HUMN,VEND)<B,0,0>
+[evnivBb]{}"bahrein(iof>island>thing)"(N,#PLC,NPRO,CEND)<B,0,0>
+[evnvgvm]{}"bahamas(iof>country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[we`Åvjq]{}"school(iof>educational_institution)"(N,#PLC, NCOM, CEND)<B,0,0>
+[we`Åvjq]{}"school(icl>building>thing)"(N,#PLC, NCOM, CEND)<B,1,1>
+[weovj]{}"lion(icl>feline>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[wek¼we`Åvjq{}" university(icl>body>thing)"(N,#PLC,NCOM,CEND)<B,0,0>
+
+[wemvD]{}"bissau(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wekGKK]{}"bishkek(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eyLvGiÕ¡]{}"bucharest(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eyRyÁ¼yiv]{}"bujumbura(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ey`vGcÕ¡]{}"budapest(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eyiwKbv dvGmv]{}"burkina_faso(iof>country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[eyi‚w´£]{}"burundi(iof>african_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[eyjGMwiqv]{}"bulgaria(iof>balkan_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[e†Þ]{}"tree(icl>woody_plant)"(N,NCOM, #OBJ,VEND, AEND)<B,0,0>
+[ˆeBwRs]{}"beijing(iof>national_capital>thing)"(N,#PLC, NPRO, CEND, NGEND)<B,0,0>
+[ˆewbb]{}"benin(iof>african country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆeov]{}"bera  (iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆejGMÉW]{}"belgrade(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆejwRqvg]{}"belgium(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆejvi‚m]{}"belarus(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆewjR]{}"belize(iof>central_american_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆevrGmvqvbv]{}"botswana(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[Šei‚Z]{}"beirut(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆeŒ]{}"wife(icl>spouse>thing)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[eÅvsKK]{}"bangkok(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eÅvKiY] {}"grarmmar(icl>descriptive_linguistics)"(N,LOGY, NCOM, CEND)<B,0,0>
+[eÅvNË]{}"tiger(icl>big_cat>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[eËvwRj]{}"brazil(iof>south_american_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eËvwUÕÏvfv]{}"bratislava(iof>capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[eËvGmjm]{}"brussels(iof>national_capital>thing,equ>bruxelles)"(N,#PLC, NPRO, CEND)<B,0,0>
+[weËRUvDb]{}"bridgetown(iof>capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[eË‚GbB]{}"brunei(iof>sultanate>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[fvãyiv]{}"bhangura(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[fvZ]{}"rice(icl>grain>thing)"(N,NMAT,NCOM,#OBJ,CEND)<B,0,0>
+[fviZ]{}"india(iof>asian_country>thing))"(N,#PLC, NPRO, CEND)<B,0,0>
+[wfGÙvwiqv]{}"victoria(iof>town>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wfGqrbvg]{}"vietnam(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wfGqbwZGqb]{}"vientiane(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wfGqb]{}"vienna(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[f„GMvj] {}"geography(icl>earth_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[f„-weævb] {}"earth science(icl>natural_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[fzUvb]{}"bhutan(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆfwbRyGqjv]{}"venezuela(iof>south_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆfvjv]{}"bhola(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[gaÅvn×]{}"noon(icl>time_of_day)"(N,#TIM, NCOM, VEND, AEND)<B,0,0>
+[gqbv]{}"myna(icl>starling>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[gqgbwmsn]{}"mymensingh(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[gi‚f„wg]{}"desert(iof>tract>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[gGÕ•v]{}"moscow(iof>national_capital>thing)"(N,#PLC, NPRO, VEND,AEND)<B,0,0>
+[gnvG`k]{}"continent(icl>landmass>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[gnvwe`Åvjq]{}"college(iof>educational_institution)"(N,#PLC,NCOM,CEND)<B,0,0>
+[gnvwe`Åvjq]{}" college(icl>building_complex>thing)"(N,#PLC,NCOM,CEND)<B,1,1>
+[gv]{}"mother(icl>parent>living_thing,ant>father,pos>child)"N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[gvsm] {}"meat(icl>food>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[gvMwa] {}"magadhan(icl>sanskrit)"(N,LOGY, NCOM, VEND)<B,0,0>
+[gvQ] {}"fish(iof>aquatic_vertebrate>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[gvQivOv]{}"kingfisher(icl>coraciiform_bird>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[gv`vMvÕ•vi]{}"madagascar(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[gvwbKMé]{}"manikganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[gvbyl]{}"man(icl>person,equ>human,ant>animal)"(N,NCOM,HUMN,CEND)<B,0,0>
+[gvwKÆb hyî×ivÓ¡Ç]{}"usa(iof>north_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[gvm]{}"month(icl>period>time,icl>unit,pof>year)"(N,#TIM, NCOM, CEND)<B,0,0>
+[wgVvcyi]{}"mithapukur(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wgwbU]{}"minute(icl>time_unit>abstract_thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[wgqvbgvi]{}"myanmar(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wgki] {}"egypt(iof>african_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[gyw´ÖMé]{}"munshiganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆgGS]{}"floor(icl>beat>do,equ>deck,agt>thing,obj>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[ˆgGq{}" daughter(icl>female_offspring>thing,ant>son)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[hGkvni]{}"jessore(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[hyî×ivRÅ]{}"uk(iof>kingdom>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[hyî×ivÓ¡Ç]{}"us(iof>north_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[iscyi]{}"rangpur(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[imvqbweævb]{}"chemistry(icl>natural_science>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[ivRavbx]{}"capital(iof>seat>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[ivRkvnx]{}"rajshahi(iof>city>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[ivZ]{}"night(icl>time_period>thing,ant>day)"(N,#TIM, NCOM, CEND)<B,0,0>
+[ivwò]]{}"night(icl>time_period>thing,ant>day)"(N,#TIM, NCOM, VEND)<B,0,0>
+[ivÓ¡Ç]{}"state(iof>administrative_district>thing,equ>province)"(N,#PLC, NCOM, VEND, AEND)<B,0,0>
+[ivÕ¦v]{}"road(icl>way>thing)"(N,#PLC, NCOM, VEND)<B,0,0>
+[i‚wU]{}"bread(icl>baked_goods>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[j´£b]{}"london(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[jvBGewiqv]{}"liberia(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[jvDm]{}"laos(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[jvUwfqv]{}"latvia(iof>baltic_state>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wjPz]{}"lychee(icl> edible_fruit>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[wjGPbGÕ¡Bb]{}"liechtenstein(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[wj^ywbqv]{}"libya(iof>baltic_state>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wjweqv]{}"libya(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wjmeb]{}"lisbon(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[jyGÝgevMÆ]{}"luxembourg(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,1,1>
+[jyGÝgevMÆ]{}"luxembourg(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[jyqv´£v]{}"luanda(iof>national capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[jymvKv]{}"lusaka(iof>national capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆjevbb]{}"lebanon(iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[ˆjGmG^v]{}"lesotho(iof>african_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[ˆjvK]{}"man(icl>person,equ>human,ant>animal)"(N,NCOM,HUMN,CEND)<B,0,0>
+[jÅvwUb]{}"latin(icl>italic>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[kKzb]{}"vulture(icl>bird_of_prey>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[kir]{}"autumn(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[kirKvj]{}"autumn(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[knivçj]{}"urban_area(iof>geographical_area>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[wk÷]{}"baby(icl>child>person)"(N,NCOM, HUMN,VEND)<B,1,1>
+[wk÷]{}"child(icl>juvenile>thing)"(N,NCOM, HUMN,VEND)<B,0,0>
+[kxZ]{}"winter(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[kxZKvj]{}"winter(icl>season>thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[mshyî× Avie AvwgivZ]{}"UAE(iof>asian_country>thing, equ>united arab_emirates)"(N,#PLC, NPRO, CEND)<B,0,0>
+[msÕ•‡Z] {}"sanskrit(icl>indic>thing)"(N,LOGY, NCOM, VEND, AEND)<B,0,0>
+[mKvj]{}"morning(icl>time_period>thing)"N,#TIM, NCOM, CEND)<B,0,0>
+[moK]{}"road(icl>way>thing)"(N,#PLC, NCOM, CEND)<B,0,0>
+[m®¬Åv]{}"evening(icl>day>thing)"(N,#TIM, NCOM, VEND, AEND)<B,0,0>
+[mµ¦vn]{}"week (icl>time,icl>unit)"N,#TIM, NCOM, CEND)<B,0,0>
+[mwô]{}"vegetable(icl>green_goods>thing)"(N, NCOM, #OBJ, VEND)<B,0,0>
+[mwô]{}"vegetable (icl>produce>thing)"(N, NCOM, #OBJ, VEND)<B,1,1>
+[mgy`Ë]{}"[mvMi]{}" sea(icl>body_of_water>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[mvBcÉvm]{}"cyprus(iof>island>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[mvuw^qv]{}"santhia(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[mvMi]{}" sea(icl>body_of_water>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[mvc]{}"snake(icl>diapsid_reptile>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[mvgvwRKweævb] {}"social science (icl>science)"(N,LOGY, NCOM, CEND)<B,0,0>
+[mvim]{}"crane(icl>wading_bird>thing)"(N,NCOM, #OBJ,CEND)<B,0,0>
+[mvnviv]{}"sahara(iof>desert>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[wmsn]{}"lion(icl>big_cat>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[wmGjU]{}"sylhet(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[myRvbMi]{}"sujanagar(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[mƒhÆgyLx]{}"sunflower(icl>flower>thing)"(N, NCOM, #OBJ, VEND)<B,0,0>
+[ˆmGK´£]{}"second(icl>time_unit>abstract_thing)"(N,#TIM, NCOM, CEND)<B,0,0>
+[ˆmŒw` Avie]{}"saudi_arabia (iof>asian_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Õ¨x]{}"wife(icl>spouse>thing)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[Õ•zj]{}"school(iof>educational_institution>thing)"(N,#PLC,NCOM,CEND)<B,0,0>
+[Õ•zj]{}" school(icl>building>thing)"(N,#PLC,NCOM,CEND)<B,1,1>
+[ˆÕ•b]{}"spain(iof>european_country>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[Õ•Åvwbk]{}"spanish(icl>romance>thing)"(N,LOGY, NCOM, CEND)<B,0,0>
+[Õ¼vgx]{}"husband(icl>spouse>thing)"(N,NCOM, #OBJ,HUMN,VEND)<B,0,0>
+[nsKs]{}"hong kong(iof>city>thing)"(N,#PLC, NPRO, CEND, NGEND)<B,0,0>
+[n´£zivm]{}"honduras(iof>central_american_country>thing, equ>netherland)"(N,#PLC, NPRO, CEND)<B,0,0>
+[nweMé]{}"habiganj(iof>city>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[nwiY]{}"deer(icl>ruminant>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[njÅv´£]{}"holland(iof>european_country>thing, equ>netherland)"(N,#PLC, NPRO, CEND)<B,0,0>
+[nvBwZ]{}"haiti(iof>country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[nvum]{}"goose(icl>anseriform_bird>thing)"(N,NCOM, #OBJ,ANIM,CEND)<B,0,0>
+[nvGãwi]{}"hungary(iof>european_country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[nvZ] {}"hand(icl>extremity>thing)"(N,NCOM, #OBJ,VEND)<B,0,0>
+[nvwZ] {}"elephant(icl>proboscidean>thing)"(N,NCOM, #OBJ,ANIM,VEND)<B,0,0>
+[nvfvbv]{}"havana(iof>national_capital>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+[nvivGi]{}"harare(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[wnw±`]{}"hindi (icl>sanskrit>thing)"(N,LOGY, NCOM, VEND)<B,0,0>
+[ˆnjwmwâ]{}"helsinki(iof>national_capital>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+[nÅvbq]{}"hanoi(iof>national capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+[nÅvwgÎŸb]{}"hamilton(iof>city>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+
+;; 
+;;
+;;
+;;
+[nGZ]{}"ANUS"(ANUS,5TH)<B,0,0>
+[ˆ^GK]{}"ANUS"(ANUS,5TH)<B,0,0>
+[ˆPGq]{}"ANUS"(ANUS,5TH)<B,0,0>
+[«¼viv]{}"ANUS"(ANUS,3RD)<B,0,0>
+[w`Gq]{}"ANUS"(ANUS,3RD)<B,0,0>
+[w`qv]{}"ANUS"(ANUS,3RD,SHD)<B,0,0>
+[KZ‡ÆK]{}"ANUS"(ANUS,3RD,SHD)<B,0,0>
+;;
+;;
+;;[ˆQGj]{}"boy(icl>human)"(N,HUMN)<B,0,0>
+;;[evoxi ˆQGj]{}"family(icl>group)"([[ˆQGj]],N,COLL,HUMAN,FULLPOS,L)<B,0,0>
+;;
+;;Bivokti
+[ˆK]{}"BIV"(BIV,2B,VEND)<B,0,0>
+[i]{}"BIV"(BIV,6B,CEND)<B,0,0>
+[‰i]{}"BIV"(BIV,6B,CEND)<B,0,0>
+
+[q]{}"BIV"(BIV,7TH,AEND)<B,0,0>
+[GZ]{}"BIV"(BIV,7TH,VEND)<B,0,0>
+[‰]{}"BIV"(BIV,7TH,CEND)<B,0,0>
+;;[ˆq]{}"BIV"(BIV,7TH,VEND)<B,0,0>
+;;[-‰]{}"BIV"(BIV,7TH,VEND)<B,0,0>
+;; 
+[‰KwU]{}"BOCH"(BOCH,IDEF)<B,0,0>
+[‰KRb]{}"BOCH"(BOCH,IDEF,HUMN)<B,0,0>
+[wU]{}"BIV"(BIV,BOCH,DEF,SG)<B,0,0>
+[àwj]{}"BIV"(BIV,BOCH,DEF,PL)<B,0,0>
+[àGjv]{}"BIV"(BIV,BOCH,DEF,PL)<B,0,0>
+[iv]{}"BIV"(BIV,BOCH,DEF,PL,HUMN,VEND)<B,0,0>
+[‰iv]{}"BIV"(BIV,BOCH,DEF,PL,HUMN,CEND)<B,0,0>
+
+;; 
+;;
+;;Adjective
+[jÁ¼v]{}"lengthy"(ADJ,CEND)<B,0,0>
+[eo]{}"lengthy"(ADJ,CEND)<B,0,0>
+[fvj]{}"good(aoj>thing)"(ADJ,VEND)<B,0,0>
+
+[Aviwe] {}"arabic(icl>adj,com>arab)"(N,LOGY, NCOM, VEND)<B,0,0>
+[BZvjxq ]{}"italic(icl>adj,equ>slanted)"(N,LOGY, NCOM, VEND)<B,0,0>
+
+
+[A®¬Kvi] {}"dark(icl>adj,ant>light)"(N,NCOM,STAT, #AOJ, CEND)<B,0,0>
+;;Color
+;;
+[jvj]{}"red(icl>adj,equ>crimson)"(ADJ,CEND)<B,0,0>
+
+
+
+
+
+
+
+
+
+
