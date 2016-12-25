@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.http import HttpResponse
+from django.contrib import messages
 import requests
 import subprocess, os
 
@@ -9,63 +10,73 @@ import subprocess, os
     #return render(request, "home.html")
 
 def index(request):
-    language1 = request.POST.get('lang1')
-    language2 = request.POST.get('lang2')
-    language3 = request.POST.get('lang3')
-    enorde1 = request.POST.get('enordn1')
-    enorde2 = request.POST.get('enordn2')
-    enorde3 = request.POST.get('enordn3')
-    text1 = request.POST.get('inputText1')
-    text2 = request.POST.get('inputText2')
-    text3 = request.POST.get('inputText3')
+    language1 = request.GET.get('lang1')
+    language2 = request.GET.get('lang2')
+    language3 = request.GET.get('lang3')
+    enorde1 = request.GET.get('enordn1')
+    enorde2 = request.GET.get('enordn2')
+    enorde3 = request.GET.get('enordn3')
+    text1 = request.GET.get('inputText1')
+    text2 = request.GET.get('inputText2')
+    text3 = request.GET.get('inputText3')
 
     print language1,language2,language3
     print text1, text2, text3
+    print request.GET.get('bBut'),
+    print request.GET.get('eBut'),
+    print request.GET.get('tBut')
     
-    if language1 == "Bangla":
+    ans = None
+    
+    if request.GET.get('bBut') == 'ban':
         if enorde1 == "Encode":
-            writeFile = open('UNLTest\\EnInput.txt','w')
-            writeFile.writelines(text1)
-            writeFile.close()
-            
-            FNULL = open(os.devnull,'w')
-            arg = 'UNLtest\\EnCol33.exe "UNLtest\\WD.dic" "UNLtest\\EnRules.txt" "UNLtest\\EnInput.txt" "UNLtest\\EnOutput.txt" -go -l4'
+            if len(text1.split()) < 3:
+                messages.error(request, 'The Given sentence has no complete expectation (Akangkha)');
+                return render(request, "home.html");
+                
+            else:
+                writeFile = open('UNLTest\\EnInput.txt','w')
+                writeFile.writelines(text1)
+                writeFile.close()
+                
+                FNULL = open(os.devnull,'w')
+                arg = 'UNLtest\\EnCol33.exe "UNLtest\\WD.dic" "UNLtest\\EnRules.txt" "UNLtest\\EnInput.txt" "UNLtest\\EnOutput.txt" -go -l4'
 
-            subprocess.call(arg, stdout=FNULL, stderr=FNULL, shell = False)
-            
-            readFile = open('UNLtest\\EnOutput.txt','r')
-            
-            lines = []
-            
-            while True:
-                x = readFile.readline()
+                subprocess.call(arg, stdout=FNULL, stderr=FNULL, shell = False)
                 
-                if not x:
-                    break
-                    
-                lines.append(x)
-            
-            readFile.close()
-            
-            ans = []
-            
-            Length = len(lines)
-            id = Length-1
-            
-            while lines[id].find('{unl}') == -1:
-                id = id - 1
-                #print id
-            
-            while id < Length:
-                ans.append( lines[id] )
+                readFile = open('UNLtest\\EnOutput.txt','r')
                 
-                if lines[id].find('{/unl}') != -1:
-                    break
+                lines = []
+                
+                while True:
+                    x = readFile.readline()
                     
-                id = id + 1
-            
-            return render(request, "home.html", {'rule': (ans)})
-            
+                    if not x:
+                        break
+                        
+                    lines.append(x)
+                
+                readFile.close()
+                
+                ans = []
+                
+                Length = len(lines)
+                id = Length-1
+                
+                while lines[id].find('{unl}') == -1:
+                    id = id - 1
+                    #print id
+                
+                while id < Length:
+                    ans.append( lines[id] )
+                    
+                    if lines[id].find('{/unl}') != -1:
+                        break
+                        
+                    id = id + 1
+                
+                return render(request, "home.html", {'rule': (ans)})
+                
         else:
             writeFile = open('UNLTest\\DeInput.txt','w')
             writeFile.writelines(text1)
@@ -96,7 +107,7 @@ def index(request):
             return render(request, "home.html", {'rule': (ans)})
             
     
-    if language2 == "English":
+    elif request.GET.get('eBut') == 'eng':
         if enorde2 == "Encode":
             x = "DOMAIN=SPORT&password=guest&TAGERROR=NO&username=UNL_guest&conversion=true&language=en&data=%s&outputmode=text&coding=utf-8" % (text2)
             print x
@@ -116,7 +127,7 @@ def index(request):
                     anss += ans1[i]
             ans.append(anss)
 
-            print ans
+            #print '!!!' +  ans
 
             #return render(request, "home.html",{'rule' : r.text[r.text.find('{unl'):r.text.find('{/unl}')+6]})
             return render(request, "home.html", {'rule': (ans)})
@@ -127,5 +138,5 @@ def index(request):
             r = requests.post('http://unl.ru/etap-cgi/cgiunl.exe', data=x)
 
             return render(request, "home.html",{'rule' : HttpResponse(r.text[5:])})
-
-    return render(request, "home.html")
+    else:
+        return render(request, "home.html")

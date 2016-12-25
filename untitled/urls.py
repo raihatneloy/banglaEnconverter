@@ -19,5 +19,6 @@ from Bangla import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^bangla/',views.index)
+    url(r'^bangla/$',views.index)
+    
 ]

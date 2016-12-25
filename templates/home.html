@@ -7,10 +7,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body background="maxresdefault.jpg">
+<body>
+    {% if messages %}
+        {% for message in messages %}
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>Error</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>{{message}}</h3>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+        {% endfor %}
+        
+        <script type="text/javascript">
+            $('#myModal').modal('show');
+        </script>
+    {% endif %}
     <div class="container" style="box-shadow: 0 0 30px black; margin-top: 25px; height: 750px; border-radius: 10px;">
         <h1 class="text-center jumbotron"> Bangla Enconverter </h1>
-        <form method="post" action="/bangla/">
+        <form method="GET" >
             {% csrf_token %}
 
             <ul class="nav nav-tabs" role="tablist">
@@ -41,7 +61,7 @@
 
                         <h4>Input the text here <br /></h4>
                         <textarea class="form-control input-lg bg-info" style="font-family:SutonnyMJ" placeholder="GLv‡b wjLyb" type="text" name="inputText1" ></textarea> <br />
-                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                        <button name="bBut" value="ban" class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
                     </div>
 
                     <div class="tab-pane" id="english" role="tabpanel">
@@ -58,7 +78,7 @@
 
                         <h4>Input the text here <br /></h4>
                         <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText2"></textarea> <br />
-                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                        <button name="eBut" value="eng" class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
                     </div>
                     <div class="tab-pane" id="translate" role="tabpanel">
                         <h3>Translate Sentence</h3>
@@ -74,7 +94,7 @@
 
                         <h4>Input the text here <br /></h4>
                         <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText3" ></textarea> <br />
-                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                        <button name="tBut" value="trs" class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
                     </div>
                 </div>
 
@@ -82,15 +102,17 @@
             </div>
 
             <br />
-
-            <p>
-                {% for foo in rule %}
-                    {{ foo  }}
-                    <br/>
-                {% endfor %}
-
-            </p>
         </form>
+        
+        <p>
+            {% for foo in rule %}
+                {{ foo  }}
+                <br/>
+            {% endfor %}
+
+        </p>
+        
+        
     </div>
 
 

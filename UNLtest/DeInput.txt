@@ -1,0 +1,4 @@
+{unl} 
+agt(eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09.@entry.@present,	i(icl>person):00) 
+obj(eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09.@entry.@present,	rice(icl>grain>thing):05) 
+{/unl} 
