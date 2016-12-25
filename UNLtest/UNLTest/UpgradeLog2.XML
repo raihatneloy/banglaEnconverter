@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UNLTest">
+</Property><Property Name="Solution File" Value="G:\UNLTEST\UNLTest\UNLTest.sln">
+</Property><Property Name="User Options File" Value="G:\UNLTEST\UNLTest\UNLTest.suo">
+</Property><Property Name="Date" Value="Tuesday, October 23, 2012">
+</Property><Property Name="Time" Value="15:44 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="UNLTest.sln" Description="Error creating backup file: G:\UNLTEST\UNLTest\UNLTest.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="UNLTest.suo" Description="Error creating backup file: G:\UNLTEST\UNLTest\UNLTest.suo.old">
+</Event><Event ErrorLevel="2" Project="UNLTest" Source="UNLTest\UNLTest.vcproj" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: G:\UNLTEST\UNLTest\UNLTest\UNLTest.vcproj&#xA;Line: 10&#xA;Column: 2&#xA;Error Message:&#xA;'9.00' violates enumeration constraint of '7.00 7,00 7.10 7,10 8.00 8,00'.&#xA;The attribute 'Version' with value '9.00' failed to parse.&#xA;&#xA;The file 'G:\UNLTEST\UNLTest\UNLTest\UNLTest.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="UNLTest" Source="UNLTest\UNLTest.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="UNLTest" Source="UNLTest\UNLTest.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="Conv2Virtual" Source="..\Conv2Virtual\Conv2Virtual.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Conv2Virtual" Source="..\Conv2Virtual\Conv2Virtual.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UNLTest.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="UNLTest.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

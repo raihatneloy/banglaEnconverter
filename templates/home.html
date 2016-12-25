@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Bangla Language Processing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background="maxresdefault.jpg">
+    <div class="container" style="box-shadow: 0 0 30px black; margin-top: 25px; height: 750px; border-radius: 10px;">
+        <h1 class="text-center jumbotron"> Bangla Enconverter </h1>
+        <form method="post" action="/bangla/">
+            {% csrf_token %}
+
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" >
+                    <a class="nav-link in active" data-toggle="tab" href="#bangla" role="tab">Bangla</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" data-toggle="tab" href="#english" role="tab">English</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" data-toggle="tab" href="#translate" role="tab">Translate</a>
+                </li>
+            </ul>
+
+            <div class="row" style="margin-left: 0px; margin-right: 0px;">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="bangla" role="tabpanel">
+                        <h3>Bangla Enconversion/Deconversion</h3>
+
+                        <input type="radio" name="lang1" value="Bangla" checked="checked" /> Bangla <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn1" value="Encode" > Encode text <br />
+                        <input type="radio" name="enordn1" value="Decode"> Decode text <br />
+
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" style="font-family:SutonnyMJ" placeholder="GLv‡b wjLyb" type="text" name="inputText1" ></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+
+                    <div class="tab-pane" id="english" role="tabpanel">
+                        <h3>English Enconversion/Deconversion</h3>
+
+                        <input type="radio" name="lang2" value="English" checked="checked" /> English <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn2" value="Encode" > Encode text <br />
+                        <input type="radio" name="enordn2" value="Decode"> Decode text <br />
+
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText2"></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+                    <div class="tab-pane" id="translate" role="tabpanel">
+                        <h3>Translate Sentence</h3>
+
+                        <input type="radio" name="lang3" value="Translate" checked="checked" /> Translate <br/>
+                        <h4>Encode Or Decode <br/></h4>
+                        <input type="radio" name="enordn3" value="Encode" > English To Bangla <br />
+                        <input type="radio" name="enordn3" value="Decode"> Bangla to English <br />
+
+                        <!--<h4>Select Language<br/></h4>
+                        <input type="radio" name="lang" value="English" /> English <br />
+                        <input type="radio" name="lang" value="Bangla" /> Bangla <br /><br />-->
+
+                        <h4>Input the text here <br /></h4>
+                        <textarea class="form-control input-lg bg-info" placeholder="Input Text Here" type="text" name="inputText3" ></textarea> <br />
+                        <button class="btn btn-lg btn-primary" style="width: 100px;" type="submit"> OK </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <br />
+
+            <p>
+                {% for foo in rule %}
+                    {{ foo  }}
+                    <br/>
+                {% endfor %}
+
+            </p>
+        </form>
+    </div>
+
+
+</body>
+</html>

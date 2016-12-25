@@ -1,0 +1,4 @@
+R{SHEAD:::}{PRON,SUBJ:::}P2;
+;;
+DR{SUBJ,^blk:blk::}{BLK:::}P10;
++{SUBJ,1P,SG:@::}{AUX,1P,SG:::}P10;

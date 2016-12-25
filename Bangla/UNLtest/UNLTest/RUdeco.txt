@@ -1,0 +1,109 @@
+<html><head>
+<title>UNL.Ru :: Contacts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="description" content="The UNL system allows people to communicate with peoples of different languages in their mother tongue. The UNL is a common language to exchange information through computers which can deal with natural languages.">
+<META NAME="keywords" content="Universal Networking Language, universal networking language, UNL, NLP, nlp, unl, machine translation, languages, markup languages, United Nations University, computer translation systems, computer translation system, language barrier, electronic language for computers, natural languages, natural language processing, intermediate language, intermediate languages, communication between nations, mark-up language, XML, HTML/XML, markup, communication, Internet, information technology, UNU, IAS, UNU/IAS, Institute of Advanced Studies">
+<META NAME="robots" content="index, all">
+<META NAME="Author" CONTENT="Leonid Kreydlin">
+<link rel="stylesheet" type="text/css" href="/css/unl.css">
+
+</head>
+
+<body bgcolor="#000066" text="#99CCFF" link="#99CCFF" vlink="#99CCFF" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+<table width="695" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="124"><img src="img/p0.gif" width="124" height="88"></td>
+	<td width="10"><img src="img/p2.gif" width="10" height="88"></td>
+	<td width="561"><nobr><img src="img/p3a.gif" width="230" height="88"><img src="img/p4.gif" width="240" height="88"><a href="/"><img src="img/logo2.gif" width="90" height="88" border="0" alt="Home"></a></nobr></td>
+	</tr>
+	<tr>
+	<td width="124" valign="top"><!--#include virtual="/_incs/menu.inc" -->
+	<img src="img/p5a.gif" width="124" height="47"></td>
+	<td width="10" valign="top"><img src="img/vl.gif" width="10" height="300"></td>
+	<td width="561" background="img/tabbknew.gif" valign="top">
+	<table width="100%" border="0" cellspacing="5" cellpadding="5" background="img/1t.gif">
+	<tr align="left">
+	<td align="right">
+	<h1><i>Russian Language Server</i></h1>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<br/>
+			<form action="/unl-cgi/deco.exe/html" method="POST" enctype="multipart/form-data"> 
+				<!--form action="http://proling/etap-bin/dump.exe/html" method="POST" enctype="multipart/form-data"--> 
+				<input type="hidden" name="DOMAIN" value="SPORT">
+				<input type="hidden" name="password" value="guest">
+				<input type="hidden" name="TAGERROR" value="NO">
+				<input type="hidden" name="username" value="UNL_guest">
+	                
+					<table style="width: 80%; align:left;">
+	                    <tr>
+							<td><p style="font-weight: bold">Select option:</p></td>
+							<td><p style="font-weight: bold">Select language:</p></td>            
+						</tr>
+						<tr>
+	                        <td>
+								<p>
+								<br/>
+								<input id="Radio3" type="radio" name="conversion" value="true"/>&nbsp;Conversion
+								
+								<br />
+								<input id="Radio4" type="radio" name="conversion" value="false"/>&nbsp;Deconversion
+	                            <br />
+								<input id="Radio7" type="radio" name="conversion" value="inp"/>&nbsp;Deconversion and insertion
+	                            <br/>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;into source document
+								</p>
+							</td>
+	                        <td>
+								<p>
+								<input type="radio" name="language" value="ru"/>&nbsp;Russian
+	                            <br />
+								<input type="radio" name="language" value="en"/>&nbsp;English
+								<br/>
+								<br/>
+								</p>
+							</td>
+	                    </tr>
+	                </table>
+	  		    <br/>
+			    <p style="font-weight: bold">Please, enter the data to process:</p>
+				<textarea name="data" rows="8" cols="60"></textarea>
+				<p style="font-weight: bold">or specify the filename of your data and define its codepage:</p>
+				<p><input type="file" size="60" name="sourcefile" value="Browse..."><br/></p>
+				
+				<table style="width: 70%">
+					<tr  align="left">
+						<td><p style="font-weight: bold">Select an output mode:</p></td>
+						<td><p style="font-weight: bold">Select a code page<br> (if you send the file):</p></td>
+					</tr>
+					<tr align="left">
+						<td><p>Text mode 	<input type="radio" name="outputmode" value="text"></p></td>
+						<td><p>UTF-8 &nbsp;&nbsp;&nbsp;&nbsp;<input id="Radio1" name="coding" value="utf-8" type="radio" checked="true"/></p></td>
+					</tr>
+					<tr align="left">
+						<td><p>Html mode<input type="radio" name="outputmode" value="html" checked="true"></p></td>
+						<td><p>Win-1251<input id="Radio2" type="radio" name="coding" value="windows-1251" /></p></td>
+					</tr>                        
+				</table>
+				<br/>
+				<div align="left" style="width: 60%">
+				<p>
+					<div align="center" style="width: 100%">
+						<input type="submit" name="translate" value="Process">
+						<br/>
+						<input type="reset" value="Clear">
+						<br/>
+						<p style="text-align:center;font-size:11px">Do use the UTF-8 codepage!</p>
+					</div>
+				</p>
+				</div>
+</form>
+</td>
+</tr>
+</table>
+<!--#include virtual="/_incs/footer.inc" -->
+</center>
+</body></html>

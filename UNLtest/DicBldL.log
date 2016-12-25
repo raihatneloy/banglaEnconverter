@@ -1,0 +1,151 @@
+;;
+;;
+;;
+;;
+;;Pronoun Headache
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;; 
+;;
+;;
+;; Pronoun Stems
+;;[I]{}"he"(PSTEM,HPSTEM,3P,CHL,THAT)<B,0,3>
+;;
+;;
+;;Suffixes for pronouns
+;;
+;;
+;;
+;;Possesive pronoun
+;;Singular
+;;Plural
+;;
+;;
+;;Objective Pronouns
+;;Singular
+;;Plural
+;;
+;;
+;;
+;;Verb Roots
+;;
+;;VEG1
+;;VEG1.1
+;;[ˆM]{}"sing(icl>do,agt>living_thing,obj>song)"(ROOT,VEND,#AGT,#OBJ,ALT,VEG1.1)<B,0,2>
+;
+;
+;;VEG2
+;;
+;;
+;;
+;;
+;;
+;; VEG3
+;;
+;;VEG4
+;;
+;;
+;;
+;;
+;;VEG5
+;;
+;;VEG6
+;;
+;;
+;;
+;;VEG7
+;;
+;;VEG8
+;;
+;;VEG9
+;;
+;;
+;;
+;;
+;;VEG10
+;;
+;;
+;;
+;;
+;;
+;;
+;;Verb roots that create verbs of feelings
+;;
+;;Verbal Inflexions
+;; 
+;;
+;;
+;;
+;; 
+;;
+;;
+;;
+;;
+;;
+;;
+;; ;; ^vK - 1P
+;; ^vK - 2P
+;; ^vK - 3P
+;;
+;;
+;;
+;;
+;;Adverbs
+;; 
+;;[fvjfvGe]{}""(ADV,VEND)<B,0,0>
+;;[fvjKGi]{}""(ADV,VEND)<B,0,0>
+;;
+;;
+;;Nouns
+;; 
+;;[àqvGZgvjv] "guatemala(iof>central_american_country>thing)"(N,#PLC, NPRO, VEND, AEND)<B,0,0>
+;;[ˆRi‚RvGjg] "jerusalem(iof>national_capital>thing)"(N,#PLC, NPRO, CEND)<B,0,0>
+;;[RÅvgvBKv] "jamaica(iof>country>thing)"(N,#PLC, NPRO, VEND)<B,0,0>
+;;
+;; 
+;;
+;;
+;;
+;;
+;;
+;;[ˆQGj]{}"boy(icl>human)"(N,HUMN)<B,0,0>
+;;[evoxi ˆQGj]{}"family(icl>group)"([[ˆQGj]],N,COLL,HUMAN,FULLPOS,L)<B,0,0>
+;;
+;;Bivokti
+;;
+;;[ˆq]{}"BIV"(BIV,7TH,VEND)<B,0,0>
+;;[-‰]{}"BIV"(BIV,7TH,VEND)<B,0,0>
+;; 
+;;
+;;
+;;
+;;Adjective
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;[B]{}””(FSTFX)<B,0,10>
+;;Wrong data! error code : 92
+;;[GZv]{}””(FSTFX)<B,0,10>
+;;Wrong data! error code : 92
+;;[I]{}”also(icl>how,equ>besides)”(FSTFX)<B,0,10>
+;;Wrong data! error code : 92
+;;[fvjevm&]{}"love(icl>feeling>be,obj>thing,aoj>preson"()<B,0,0>
+;;Wrong data! error code : 94

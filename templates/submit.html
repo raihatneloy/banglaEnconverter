@@ -1,0 +1,11 @@
+{% extends "home.html" %}
+
+{% block content %}
+    <p>
+        {% for foo in rule %}
+            {{ foo  }}
+            <br/>
+        {% endfor %}
+
+    </p>
+{% endblock %}

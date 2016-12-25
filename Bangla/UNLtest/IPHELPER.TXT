@@ -1,0 +1,64 @@
+------------------------
+This is GetNetworkParams
+------------------------
+	Host Name: Farooque-PC
+	Domain Name: 
+	DNS Servers:
+		
+	Enable Routing: No
+	Enable Proxy: No
+	Enable DNS: No
+------------------------
+This is GetAdapatersInfo
+------------------------
+	Adapter Name: 	{07941C55-D804-4314-B823-5150BDDD432B}
+	Adapter Desc: 	Broadcom NetLink (TM) Gigabit Ethernet
+	Adapter Addr: 	2582252
+	IP Address: 	0.0.0.0
+	IP Mask: 	0.0.0.0
+	Gateway: 	0.0.0.0
+	***
+	DHCP Enabled: Yes
+		DHCP Server: 	
+	Lease Obtained: 0
+	Have Wins: No
+------------------------
+This is GetInterfaceInfo
+------------------------
+Adapter Name: \DEVICE\TCPIP_{07941C55-D804-4314-B823-5150BDDD432B}
+Adapter Index: 11
+Num Adapters: 1
+this succeeded.
+	Error: The operation completed successfully.
+This is GetIpAddrTable
+----------------------
+this failed the first time.
+Address: 16777343
+Mask:    255
+Index:   1
+BCast:   1
+Reasm:   65535
+	Error adding IP address.
+	Error: Access is denied.
+Call to DeleteIPAddress failed.
+-------------------------
+This is GetIPStatistics()
+-------------------------
+	Number of IP addresses: 8
+	Number of Interfaces: 2
+	Receives: 597
+	Out Requests: 4884
+	Routes: 5
+	Timeout Time: 60
+	In Delivers: 5028
+	In Discards: 16
+	Total In: 5044
+	In Header Errors: 0
+-------------------------
+This is GetTCPStatistics()
+-------------------------
+	Active Opens: 599
+	Passive Opens: 27
+	Segments Recv: 4172
+	Segments Xmit: 2980
+	Total # Conxs: 25

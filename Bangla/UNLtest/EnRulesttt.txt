@@ -1,0 +1,11 @@
+R{SHEAD:::}{[<],TEMP:::}P10;
+DR{[<],TEMP:::}{BLK:::}P10;
+R{[<],TEMP:::}{[jﬁY] ,TEMP::}P10;
+DR{[jﬁY],TEMP:::}{BLK:::}P10;
+<{[jﬁY],TEMP:::}{NUM::adi:}P10; 
+DR{[jﬁY],TEMP:::}{[>],[[>]],TEMP:::}P10;
+:([jﬁY],TEMP,^>adc)"[2]:::"{STAIL:::}P10;
+;;DR{[[2]]:::}{[>],TEMP:::}P10;
+L{[2]:::}{:::}P10;
+<{[jﬁY],TEMP,^>adc:::}{[2]::adc:}P14;
+R{[jﬁY],TEMP:::}{STAIL:::}P10;

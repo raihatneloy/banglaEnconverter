@@ -1,0 +1,197 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_UNLTEST             ICON                    "UNLTest.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_UNLTEST MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_UNLTEST ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  22, 17, 230, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_UNLTEST,IDC_MYICON,14,9,16,16
+    LTEXT           "UNLTest Version 1.0",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+IDD_CONVDIALOG DIALOGEX 0, 0, 441, 304
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Bangla Server Testing Application"
+FONT 12, "MS Shell Dlg", 700, 0, 0x0
+BEGIN
+    GROUPBOX        "Convert from",IDC_STATIC,7,7,84,36,WS_GROUP
+    CONTROL         "Bangla to &UNL ",IDC_RADENCO,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_TABSTOP,21,16,61,10
+    CONTROL         "UNL  to &Bangla",IDC_RADDECO,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_TABSTOP,21,27,61,11
+    LTEXT           "UNL &Expression:",IDC_STATIC1,7,50,72,11
+    EDITTEXT        IDC_EDTUNL,7,60,427,138,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "Natural Language &Sentence:",IDC_STATIC2,7,211,112,8
+    CONTROL         "Bangla",IDC_RADLANG_BN,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,205,211,55,8
+    CONTROL         "English",IDC_RADLANG_EN,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,266,211,60,8
+    EDITTEXT        IDC_EDTBANGLA,7,221,427,59,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "&Convert",IDOK,184,283,33,12
+    PUSHBUTTON      "&Exit",IDCANCEL,224,283,33,12
+    CONTROL         "Use foreign language servers",IDC_CHK_FOREIGN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,139,5,116,8
+END
+
+IDD_STARTUP DIALOGEX 0, 0, 319, 360
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_CLIENTEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,7,7,305,346
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONVDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_STARTUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_UNL_BACKG           BITMAP                  "J:\\UNLTEST\\UNLTest\\logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "UNLTest"
+    IDC_UNLTEST             "UNLTEST"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

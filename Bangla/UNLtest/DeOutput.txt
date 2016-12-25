@@ -1,0 +1,1031 @@
+================= WORD LISTS : 03 ==================
+01  05  00:<obj
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (N,NCOM,#OBJ,VEND) <B,1,1>;
+02  09  00:,@entry,@present,>agt,>obj
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+03  00  00:,@pl,<agt
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[wZwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,SUBJ,HON) <B,2,2>;
+[ˆm]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰u]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Bwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+======================== UNL =======================
+eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09(,@entry,@present,>agt,>obj)
+  -agt>he(icl>person)(,@pl,<agt)
+  -obj>banana(icl>edible_fruit>thing):05(<obj)
+====================================================
+=================== NODE LIST:00 ===================
+/[<<]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[wZwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ,HON) <B,2,2>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[wZwb|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[wZwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ,HON) <B,2,2>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+?{:::}{HPRON,SUBJ,HON,^@respect:::}P8;
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[wZwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ,HON) <B,2,2>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[wZwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ,HON) <B,2,2>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[ˆm|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[ˆm]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+[‰]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+[‰u]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Bwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[ˆm]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[ˆm|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[ˆm]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[ˆm]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[ˆm]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,SUBJ) <B,2,2>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[‰|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[‰]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+[‰u]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Bwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[‰]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[‰|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[‰]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[‰]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[‰]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[‰u|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[‰u]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Bwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[‰u]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[‰u|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[‰u]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+?{:::}{HPRON,SUBJ,HON,^@respect:::}P8;
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[‰u]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[‰u]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[Bwb|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[Bwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[Bwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[Bwb|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[Bwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+?{:::}{HPRON,SUBJ,HON,^@respect:::}P8;
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[Bwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[Bwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THIS,SUBJ,HON) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[Dwb|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[Dwb]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[Dwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[Dwb|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[Dwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+?{:::}{HPRON,SUBJ,HON,^@respect:::}P8;
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[Dwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[Dwb]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[I|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[I]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[I]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[I|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[I]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[I]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[I]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[Iu|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[Iu]{}  "he(icl>person)" (PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[Iu]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[Iu|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[Iu]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+==================== APPLIED RULE ==================
+?{:::}{PRON,SG,@pl:::}P8;
+-- other applicable rules --
+?{:::}{HPRON,SUBJ,HON,^@respect:::}P8;
+R{:::}{SUBJ:::}P3;
+====================================================
+==================== BACKTRACK-0 =====================
+?{:::}{PRON,SG,@pl:::}P8;
+<<<<< lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+<<<<< rnode
+[Iu]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+==================== BACKTRACK-1 =====================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+<<<<< lnode
+[Iu]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,SG,MEL,THAT,SUBJ,HON) <B,1,1>;
+<<<<< rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+;;next entry for lnode #2
+=================== NODE LIST:00 ===================
+/<</[‰iv|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[‰iv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+[‰uiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL,HON) <B,0,0>;
+[Bnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD) <B,0,0>;
+[Bunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,THIS,SUBJ,SHD,HON) <B,0,0>;
+[Dnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Dunviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Iiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Iuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[Zuvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD,HON) <B,0,0>;
+[Zviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL) <B,0,0>;
+[Zvnviv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,SHD) <B,0,0>;
+[Zvuiv]{}  "he(icl>person)" (PRON,HPRON,3P,PL,MEL,SUBJ,CHL,HON) <B,0,0>;
+[IGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#OBJ) <B,0,3>;
+[ZvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#OBJ) <B,0,3>;
+[‰GK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#OBJ) <B,0,2>;
+[‰uGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#OBJ) <B,0,2>;
+[BnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#OBJ) <B,0,2>;
+[BunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#OBJ) <B,0,2>;
+[DnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#OBJ) <B,0,2>;
+[DunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#OBJ) <B,0,2>;
+[IuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#OBJ) <B,0,2>;
+[Zvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,#POS) <B,2,2>;
+[ZvnvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#OBJ) <B,0,2>;
+[ZvuGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#OBJ) <B,0,2>;
+[Zvui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,#POS) <B,2,2>;
+[ZvunvGK]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#OBJ) <B,0,2>;
+[‰i]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THIS,#POS) <B,1,1>;
+[‰ui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THIS,#POS) <B,1,1>;
+[Bnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SG,SHD,THIS,#POS) <B,1,1>;
+[Bunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THIS,#POS) <B,1,1>;
+[Dnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,THAT,#POS) <B,1,1>;
+[Dunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,THAT,#POS) <B,1,1>;
+[Ii]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,THAT,#POS) <B,1,1>;
+[Iui]{}  "he(icl>person)" (PRON,HPRON,3P,SG,CHL,HON,THAT,#POS) <B,1,1>;
+[Zvnvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,#POS) <B,1,1>;
+[Zvunvi]{}  "he(icl>person)" (PRON,HPRON,3P,SG,SHD,HON,#POS) <B,1,1>;
+rnode >>>>>
+,@entry,@present,>agt,>obj
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+[ˆL]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,ALT,VEG1) <B,0,1>;
+==================== APPLIED RULE ==================
+:"HPRON,3P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^3p:+3p::}P9;
+-- other applicable rules --
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode  INSERTED
+[‰iv]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/[<<]/[‰iv|uw=he(icl>person)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[‰iv]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+==================== APPLIED RULE ==================
+R{:::}{SUBJ:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+>>>>> rnode
+[‰iv]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</[‰iv|uw=he(icl>person)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[‰iv]{}  "he(icl>person)" (,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:{SUBJ,^blk:+blk::}"[ ],BLK:::"P10;
+-- other applicable rules --
+:"HPRON,1P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^1p:+1p::}P9;
+:"HPRON,2P,SUBJ::agt:"{ROOT,VEND,^ALT,#AGT,^2p:+2p::}P9;
+:"N::plf:"{ROOT:::}P8;
+:"N::frm:"{ROOT:::}P8;
+:"N::ins:"{ROOT:::}P8;
+:"N::met:"{ROOT:::}P8;
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+====================================================
+>>>>> lnode
+[‰iv]{}  "he(icl>person)" (blk,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+>>>>> rnode  INSERTED
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/[<<]/[‰iv|uw=he(icl>person)]/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;
+rnode >>>>>
+[‰iv]{}  "he(icl>person)" (blk,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+==================== APPLIED RULE ==================
+R{:::}{SUBJ:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;
+>>>>> rnode
+[‰iv]{}  "he(icl>person)" (blk,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</[‰iv|uw=he(icl>person)]/[ ]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[‰iv]{}  "he(icl>person)" (blk,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+rnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+==================== APPLIED RULE ==================
+R{SUBJ:::}{BLK:::}P3;
+-- other applicable rules --
+R{:::}{BLK:::}P3;
+====================================================
+>>>>> lnode
+[‰iv]{}  "he(icl>person)" (blk,@pl,<agt,PRON,HPRON,3P,PL,MEL,THIS,SUBJ,CHL) <B,0,0>;
+>>>>> rnode
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:"N,^obj:+obj:obj:"{ROOT,VEND,#AGT,#OBJ:::}P6;
+-- other applicable rules --
+R{BLK:::}{ROOT:::}P3;
+====================================================
+>>>>> lnode  INSERTED
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/[ ]/[Kjv|uw=banana(icl>edible_fruit>thing)]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{N:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /[Kjv|uw=banana(icl>edible_fruit>thing)]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+:{N,^biv,^blk:+blk::}"[ ],BLK:::"P3;
+-- other applicable rules --
+R{N:::}{:::}P3;
+====================================================
+>>>>> lnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode  INSERTED
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/[ ]/[Kjv|uw=banana(icl>edible_fruit>thing)]/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+==================== APPLIED RULE ==================
+R{:::}{N:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /[Kjv|uw=banana(icl>edible_fruit>thing)]/[ ]/Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/>>/
+====================================================
+lnode >>>>>
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+rnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+==================== APPLIED RULE ==================
+R{:::}{BLK:::}P3;
+-- other applicable rules --
+R{N:::}{:::}P3;
+====================================================
+>>>>> lnode
+[Kjv]{}  "banana(icl>edible_fruit>thing)" (blk,obj,<obj,N,NCOM,#OBJ,VEND) <B,1,1>;
+>>>>> rnode
+[ ]{}  "" (BLK) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+R{BLK:::}{ROOT:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/[>>]/
+====================================================
+lnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+==================== APPLIED RULE ==================
+:{ROOT,VEND,3p,@present,^@progress,^@complete,^hon,^kbiv:+kbiv::}"[[KBIV]],KBIV,VEND,3P,PRS,^PRGR,^CMPL,^HON:::"P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+>>>>> rnode  INSERTED
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/[ ]/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/q/>>/
+====================================================
+lnode >>>>>
+[ ]{}  "" (BLK) <.,0,0>;
+rnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+==================== APPLIED RULE ==================
+R{BLK:::}{ROOT:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[ ]{}  "" (BLK) <.,0,0>;
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/[q]/>>/
+====================================================
+lnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+rnode >>>>>
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+==================== APPLIED RULE ==================
+R{ROOT:::}{KBIV:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (kbiv,3p,@entry,@present,>agt,>obj,ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;
+>>>>> rnode
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/[q]/[>>]/
+====================================================
+lnode >>>>>
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+==================== APPLIED RULE ==================
+R{KBIV:::}{STAIL:::}P3;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+>>>>> rnode
+[>>]{}  "" (STAIL) <.,0,0>;
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/q/[>>]/
+====================================================
+lnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+rnode >>>>>
+;;==>> PostEdit
+=================== NODE LIST:00 ===================
+/<</‰iv|uw=he(icl>person)/ /Kjv|uw=banana(icl>edible_fruit>thing)/ /Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)/[q]/[>>]/
+====================================================
+lnode >>>>>
+[q]{}  "KBIV" (KBIV,VEND,3P,PRS) <B,0,0>;
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+‰iv Kjv Lvq
+;;Time  0.0	Sec
+;;Done!

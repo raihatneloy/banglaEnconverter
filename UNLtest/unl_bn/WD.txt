@@ -1,0 +1,51 @@
+;;Pronouns
+[Avwg]{}"i(icl>person)"(PRON,HPRON,1P,SG,SUBJ)<B,1,1>
+[ˆm]{}"he(icl>person)"(PRON,HPRON,3P,SG,SUBJ)<B,1,1>
+[Avgvi]{}"i(icl>person)"(PRON,HPRON,1P,SG,#POS)<B,1,1>
+[Zvi]{}"he(icl>person)"(PRON,HPRON,3P,SG,#POS)<B,1,1>
+[ZvG`i]{}"they(icl>person)"(PRON,HPRON,3P,PL,#POS)<B,1,1>
+
+;;Nouns
+[fvZ]{}"rice(icl>food)"(N,NCONC,NMAT,CEND)<B,0,0>
+[wPwV]{}"letter(icl>document)"(N,NCONC,VEND)<B,0,0>
+[Kjg]{}"pen(icl>writing_instrument)"(N,NCONC,CEND)<B,0,0>
+[gv]{}"mother(icl>person)"(N,NCOM,VEND)<B,0,0>
+[ˆQGj]{}"boy(icl>person)"(N,NCOM,VEND)<B,0,0>
+[evwo]{}"house(icl>residence)"(N,NCONC,VEND)<B,0,0>
+
+;;Verb toots
+[Lv]{}"eat(icl>consume>do,agt>living_thing,obj>concrete_thing)"(ROOT,VEND,#AGT,#OBJ,VEG1)<B,0,2>
+[wjwL]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, 1P, PRS, #AGT,#OBJ)<B,0,2>
+[wjLwQ]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, 1P, PRS, PRG, #AGT,#OBJ)<B,0,2>
+[wjGLwQ]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLjvg]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLGZwQjvg]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjGLwQjvg]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLGev]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjGL]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLGQ]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjGLGQ]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLj]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLwQj]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjGLwQj]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+[wjLGe]{}"write(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB, #AGT,#OBJ)<B,0,2>
+;;Verbal inflexions
+[B]{}"KBIV"(KBIV,VEND,1P,PRS)<B,0,0>
+;;Bivokti
+[ˆK]{}"BIV"(BIV,2B,VEND)<B,0,0>
+[i]{}"BIV"(BIV,6B,CEND)<B,0,0>
+[‰i]{}"BIV"(BIV,6B,CEND)<B,0,0>
+;;
+[‰KwU]{}"a" (ART,INDEF)<B,0,0>
+[wU]{}"the" (BIV,ART,DEF)<B,0,0>
+;;
+;;Adjective
+[eo]{}"lengthy"(ADJ,CEND)<B,0,0>
+[jvj]{}"red(icl>color)"(ADJ,CEND)<B,0,0>
+;;Abboy
+[w`Gq]{}"by"(ABY,POS)<B,0,0>
+
+
+
+
+

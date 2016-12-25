@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UNLTest", "UNLTest\UNLTest.vcproj", "{4A06A435-8267-4419-B62C-533204589360}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conv2Virtual", "..\Conv2Virtual\Conv2Virtual.vcproj", "{DB4D71DF-6AFC-46B9-8FD1-1C8BA27E1E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A06A435-8267-4419-B62C-533204589360}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A06A435-8267-4419-B62C-533204589360}.Debug|Win32.Build.0 = Debug|Win32
+		{4A06A435-8267-4419-B62C-533204589360}.Release|Win32.ActiveCfg = Release|Win32
+		{4A06A435-8267-4419-B62C-533204589360}.Release|Win32.Build.0 = Release|Win32
+		{DB4D71DF-6AFC-46B9-8FD1-1C8BA27E1E99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB4D71DF-6AFC-46B9-8FD1-1C8BA27E1E99}.Debug|Win32.Build.0 = Debug|Win32
+		{DB4D71DF-6AFC-46B9-8FD1-1C8BA27E1E99}.Release|Win32.ActiveCfg = Release|Win32
+		{DB4D71DF-6AFC-46B9-8FD1-1C8BA27E1E99}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

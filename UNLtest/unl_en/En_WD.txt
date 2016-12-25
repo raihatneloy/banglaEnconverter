@@ -1,0 +1,33 @@
+;;
+;;
+;;PRONOUNS
+::Subjective Pronouns
+;;
+;;
+[I] {} "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ)<E,1,1>;
+[We] {} "we(icl>group)" (PRON,HPRON,1P,PL,SUBJ,SHEAD)<E,1,1>;
+[we] {} "we(icl>group)" (PRON,HPRON,1P,PL,SUBJ)<E,1,1>;
+[You] {} "you(icl>person)" (PRON,HPRON,2P,SUBJ,SHEAD)<E,1,1>;
+[you] {} "you(icl>person)" (PRON,HPRON,2P,OBJ)<E,1,1>;
+[He] {} "he(icl>person)" (PRON,HPRON,3P,SG,SUBJ,SHEAD)<E,1,1>;
+[he] {} "he(icl>person)" (PRON,HPRON,3P,SG,SUBJ)<E,1,1>;
+;;
+;;
+[eat]{}"eat(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB,#AGT,#OBJ,EN,ING)<E,0,0>
+[ate]{}"eat(icl>consume>do,agt>living_thing,obj>concrete_thing)"(VERB,#AGT,#OBJ,PST)<E,0,0>
+[go]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(VERB,#AGT,#PLF,#PLT,NE,ING)<E,0,0>
+[went]{}"go(icl>move>do,plt>place,plf>place,agt>thing)"(VERB,#AGT,#PLF,#PLT,PST)<E,0,0>
+;;
+;;
+[am]{} "am" (AUX,1P,SG,PRS)<E,0,0>
+[are]{} "are" (AUX,1P,PL,PRS)<E,0,0>
+[are]{} "are" (AUX,2P,PRS)<E,0,0>
+[are]{} "are" (AUX,3P,PL,PRS)<E,0,0>
+[is]{} "is" (AUX,3P,SG,PRS)<E,0,0>
+[was]{} "was" (AUX,3P,SG,PST)<E,0,0>
+[were]{} "were" (AUX,PL,PST)<E,0,0>
+
+
+[rice]{}"rice(icl>grain>thing,icl>food)"(N,NCONC,NMAT)<E,0,0>
+[water]{}"water"(N)<B,0,0>
+[home]{}"home(icl>residence>thing,pos>person)"(N)<B,0,0>

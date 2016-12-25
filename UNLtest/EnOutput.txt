@@ -1,0 +1,712 @@
+=================== NODE LIST ===================
+/[<<]/"Avwg fvZ LvB"/>>/
+====================================================
+lnode >>>>>
+-- word candidates for lnode --
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+==================== APPLIED RULE ==================
+R{SHEAD:::}{PRON,SUBJ:::}P2;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+>>>>> rnode
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+=================== NODE LIST ===================
+/<</[Avwg|uw=i(icl>person)]/" fvZ LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[ ]{}  "" (BLK) <.,0,0>;.[]{}
+==================== APPLIED RULE ==================
+DR{SUBJ,^blk:+blk::}{BLK:::}P10;
+-- other applicable rules --
+====================================================
+=================== NODE LIST ===================
+/[<<]/[Avwg]/"fvZ LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+rnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+==================== APPLIED RULE ==================
+R{SHEAD:::}{PRON,SUBJ:::}P2;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+>>>>> rnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+=================== NODE LIST ===================
+/<</[Avwg]/"fvZ LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== APPLIED RULE ==================
+R{PRON,SUBJ:::}{N:::}P10;
+-- other applicable rules --
+R{:::}{N:::}P10;
+>{SUBJ::aoj:}{N,NCOM:::}P0;
+====================================================
+>>>>> lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+>>>>> rnode
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ|uw=rice(icl>grain>thing)]/" LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[ ]{}  "" (BLK) <.,0,0>;.[]{}
+==================== APPLIED RULE ==================
+DR{N,^blk:+blk::}{BLK:::}P10;
+-- other applicable rules --
+DR{N,^blk:+blk::}{BLK:::}(ANUS)P10;
+====================================================
+=================== NODE LIST ===================
+/<</[Avwg]/[fvZ]/"LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== APPLIED RULE ==================
+R{PRON,SUBJ:::}{N:::}P10;
+-- other applicable rules --
+R{:::}{N:::}P10;
+>{SUBJ::aoj:}{N,NCOM:::}P0;
+====================================================
+>>>>> lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+>>>>> rnode
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/"LvB"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+R{N:::}{ROOT,^VERB:::}P10;
+-- other applicable rules --
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+R{:::}{ROOT,^VERB:::}P2;
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/fvZ/[Lv|uw=eat(icl>consume>do,agt>living_thing,obj>concrete_thing)]/"B"/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+====================================================
+lnode >>>>>
+[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+rnode >>>>>
+-- word candidates for rnode --
+[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+==================== APPLIED RULE ==================
++{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+:{:::}{VERB,PRS,^&@present:+&@present::}P17;
+-- other applicable rules --
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+-- other applicable rules --
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</[Avwg]/[fvZ]/LvB/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== APPLIED RULE ==================
+R{:::}{NP:::}P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+>>>>> rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;no rule
+;;to backtrack
+==================== BACKTRACK#1 =====================
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== BACKTRACK#2 =====================
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;next rule #5
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;no rule
+;;to backtrack
+==================== BACKTRACK#1 =====================
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== BACKTRACK#2 =====================
+R{:::}{NP:::}P10;
+<<<<< lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+<<<<< rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+;;next rule #5
+=================== NODE LIST ===================
+/<</[Avwg]/[fvZ]/LvB/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+;;no rule
+;;to backtrack
+==================== BACKTRACK#1 =====================
+<<<<< lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+<<<<< rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== BACKTRACK#2 =====================
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;next rule #5
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+-- other applicable rules --
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+-- other applicable rules --
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+====================================================
+>>>>> lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</[Avwg]/[fvZ]/LvB/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== APPLIED RULE ==================
+R{:::}{NP:::}P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+>>>>> rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;no rule
+;;to backtrack
+==================== BACKTRACK#1 =====================
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== BACKTRACK#2 =====================
+R{:::}{NP:::}P10;
+<<<<< lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+<<<<< rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+;;next rule #5
+=================== NODE LIST ===================
+/<</[Avwg]/[fvZ]/LvB/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+;;no rule
+;;to backtrack
+==================== BACKTRACK#1 =====================
+<<<<< lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+[Avwg]{}  "i(icl>person)" (PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+<<<<< rnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+==================== BACKTRACK#2 =====================
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+<<<<< lnode
+[fvZ]{}  "rice(icl>grain>thing)" (NP,blk,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+[fvZ]{}  "rice(icl>grain>thing)" (N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+<<<<< rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (VERB,KBIV,CEND,1P,PRS,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+;;next rule #5
+=================== NODE LIST ===================
+/<</Avwg/[fvZ]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+|-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+|-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</[Avwg]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| >{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+| <obj
+|-[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+|-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  | +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+  |-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  |-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+>{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/[<<]/[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| >{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+| <agt
+|-[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+|-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  | >{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+  | <obj
+  |-[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+  |-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    | +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+    |-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    |-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+rnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+==================== APPLIED RULE ==================
+R{SHEAD:::}{VERB,^&@entry:+&@entry::}P11;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+>>>>> rnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+=================== NODE LIST ===================
+/<</[LvB]/>>/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| >{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+| <agt
+|-[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+|-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  | >{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+  | <obj
+  |-[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+  |-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    | +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+    |-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    |-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+rnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;
+==================== APPLIED RULE ==================
+R{VERB:::}{STAIL:::}P1;
+-- other applicable rules --
+====================================================
+>>>>> lnode
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+>>>>> rnode
+[>>]{}  "" (STAIL) <.,0,0>;.[]{}
+=================== NODE LIST ===================
+/<</LvB/[>>]/
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| >{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+| <agt
+|-[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+|-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  | >{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+  | <obj
+  |-[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+  |-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    | +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+    |-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    |-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+
+[>>]{}  "" (STAIL) <.,0,0>;.[]{}
+====================================================
+lnode >>>>>
+[>>]{}  "" (STAIL) <.,0,0>;.[]{}
+rnode >>>>>
+
+[<<]{}  "" (SHEAD) <.,0,0>;.[]{}
+
+[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (&@entry,>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+| >{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+| <agt
+|-[Avwg]{}  "i(icl>person)" (blk,PRON,HPRON,1P,SG,SUBJ) <B,2,2>;.[]{}
+|-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+  | >{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+  | <obj
+  |-[fvZ]{}  "rice(icl>grain>thing)" (blk,N,NMAT,NCOM,#OBJ,CEND) <B,0,0>;.[]{}
+  |-[LvB]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (>agt,>obj,&@present,VERB,1P,PRS,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    | +{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
+    |-[Lv]{}  "eat(icl>consume>do,agt>living_thing,obj>concrete_thing)" (ROOT,VEND,#AGT,#OBJ,VEG1) <B,0,2>;.[]{}
+    |-[B]{}  "KBIV" (KBIV,VEND,CEND,1P,PRS) <B,0,0>;.[]{}
+
+[>>]{}  "" (STAIL) <.,0,0>;.[]{}
+[S:1]
+{org}
+Avwg fvZ LvB
+{/org}
+{unl}
+agt(eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09.@entry.@present,	i(icl>person):00)
+obj(eat(icl>consume>do,agt>living_thing,obj>concrete_thing):09.@entry.@present,	rice(icl>grain>thing):05)
+{/unl}
+[/S]
+;;Time  0.0	Sec
+;;Done!

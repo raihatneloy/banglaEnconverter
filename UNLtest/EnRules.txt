@@ -1,0 +1,182 @@
+;;
+;;
+;;Sentence starts with subject
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;Analysis of proper noun.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;Proper noun - 0-Bivakti
+R{:::}{^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV:+N,+PROP::}(BLK)P10;
++:c{N,PROP,TEMP,^ablk:ablk::}{BLK}(^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV)(BLK)P10;
+R{:::}{N,PROP,TEMP,ablk:::}(^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV)(BLK)P11;
++:c{N,PROP,TEMP,ablk:-ablk::}{^PRON,^N,^VERB,^ROOT,^ADJ,^ADV,^ABY,^KBIV,^BIV}(BLK)P11;
+R{:::}{N,PROP,TEMP,^SUBJ,^ablk}(BLK)P10;
+;;Define subject
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(PRON)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(N)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(VERB)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ROOT)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ADJ)P10;
+:(SHEAD){N,PROP,TEMP,^ablk,^SUBJ:SUBJ::}{BLK}(ADV)P10;
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;End of analysis of proper noun.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+:{SHEAD:::}{PRON,SUBJ,HON,^&@respect:&@respect::}P3;
+:{SHEAD:::}{PRON,SUBJ,NGL,^&@contempt:&@contempt::}P2;
+R{SHEAD:::}{PRON,SUBJ:::}P2;
+;;
+DR{SUBJ,^blk:blk::}{BLK:::}P10;
+;;
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;Morphological analysis of verb.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+R{:::}{ROOT,^VERB:::}P2;
++{ROOT,VEND,^VERB:+VERB,-ROOT,+@::}{KBIV,VEND:::}P10;
++{ROOT,CEND,^VERB:+VERB,-ROOT,+@::}{KBIV,CEND:::}P10;
+:{:::}{VERB,KBIV:-ROOT,-KBIV,-VEND,-CEND::}P9;
+;;
+;;
+;;Matching verbal inflexions for vowel ended roots
+;;
+;;First person present tense
+?{:::}{VERB,VEND,1P,PRS,^PRGR,CMPL,VEG1,^ALT:::}P10;
+?{:::}{VERB,VEND,1P,PRS,^PRGR,CMPL,VEG1.1,^ALT:::}P10;
+?{:::}{VERB,VEND,1P,PRS,^PRGR,CMPL,VEG3,^ALT:::}P10;
+?{:::}{VERB,VEND,1P,PRS,^PRGR,CMPL,VEG9,^ALT:::}P10;
+;;First person past tense
+?{:::}{VERB,VEND,1P,PST,^PRGR,^CMPL,VEG1,^ALT:::}P10;
+?{:::}{VERB,VEND,1P,PST,^PRGR,^CMPL,VEG1.1,^ALT1:::}P10;
+?{:::}{VERB,VEND,1P,PST,^PRGR,^CMPL,VEG3,^ALT1:::}P10;
+?{:::}{VERB,VEND,1P,PST,^PRGR,^CMPL,VEG9,^ALT1:::}P10;
+?{:::}{VERB,VEND,1P,PST,^PRGR,^CMPL,VEG10,^ALT:::}P10;
+;;
+;;Matching person of pronoun in subject and that of verb in predicate.
+;;
+?{PRON,SUBJ,1P:::}{VERB,^1P:::}P28;
+?{PRON,SUBJ,2P:::}{VERB,^2P:::}P28;
+?{PRON,SUBJ,3P:::}{VERB,^3P:::}P28;
+?{PRON,SUBJ,HON:::}{VERB,^HON:::}P28;
+?{PRON,SUBJ,^HON:::}{VERB,HON:::}P28;
+?{PRON,SUBJ,NGL:::}{VERB,^NGL:::}P28;
+?{PRON,SUBJ,^NGL:::}{VERB,NGL:::}P28;
+;;
+;;
+;;Adding @pl attribute to the pronoun node.
+:{:::}{PRON,SUBJ,PL,^&@pl:&@pl::}P10;
+;;
+;;
+;;Adding appropriate unl attibutes for tense to the verb node.
+;;
+:{:::}{VERB,PRS,^&@present:&@present::}P17;
+:{:::}{VERB,PST,^&@past:&@past::}P17;
+:{:::}{VERB,FUT,^&@future:&@future::}P17;
+:{:::}{VERB,PRGR,^&@progress:&@progress::}P18;
+:{:::}{VERB,CMPL,^&@complete:&@complete::}P19;
+:{:::}{VERB,IMPR,^&@imperative:&@imperative::}P20;
+:{:::}{VERB,CUST,^&@custom:&@custom::}P21;
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;End of morphological analysis of verb.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;
+>{HPRON,SUBJ::agt:}{VERB,#AGT,^>agt:::}P10;
+;;>{N,^#POS::agt:}{VERB,#AGT,^>agt:::}P10;
+R{SHEAD:::}{VERB,^&@entry:+&@entry::}P11;
+R{VERB:::}{STAIL:::}P1;
+;;
+R{PRON,SUBJ:::}{N:::}P10;
+DR{N,^blk:blk::}{BLK:::}P10;
+R{N:::}{ROOT,^VERB:::}P10;
+>{N,^#POS::obj:}{VERB,#OBJ,^>obj:::}P8;
+>{HPRON,SUBJ::aoj:}{VERB,^#AGT,#AOJ,^>aoj:::}P10;
+;;
+;;
+;;Anusarga
+DR{NP,^blk:blk::}{BLK:::}(ANUS)P10;
++{NP,blk,^ANUS:@::}{ANUS:::}P10;
+DR{N,^blk:blk::}{BLK:::}(ANUS)P10;
++{N,blk,^ANUS:-N,NP,@::}{ANUS:::}P10;
+:{:::}{NP,blk,ANUS:-N,-ANUS,anus::}P100;
+
+;; Apadan Karok
+;;
+;;>{NP,blk,anus,5TH::plf:}{VERB,#PLC:::}P10;
+;;>{NP,blk,anus,5TH::plf:}{VERB,#PLF:::}P10;
+;;>{NP,blk,anus,5TH,#PLC::plf:}{VERB:::}P10;
+>{NP,blk,anus,5TH::frm:}{VERB,#PLC:::}P10;
+>{NP,blk,anus,5TH::frm:}{VERB,#PLF:::}P10;
+>{NP,blk,anus,5TH,#PLC::frm:}{VERB:::}P10;
+;;
+;;
+;;Karan Karak
+>{NP,INST,blk,anus,3RD::ins:}{VERB:::}P10;
+>{NP,^INST,blk,anus,3RD::met:}{VERB:::}P10;
+;;
+;;
+;;Possesive case
+R{:::}{N:::}(BIV,6B)P20;
+R{:::}{PRON,#POS:::}(N)P20;
+R{:::}{N:::}P10;
++{N,^#POS:#POS::}{BIV,6B:::}P10;
+R{:::}{#POS:::}P10;
+>{#POS}{N::pos:}P20;
+;;
+;;
+;;Bachan-Bivakti
++{N,NCOM,^&@def:&@def::}{BIV,BOCH,DEF,SG,^PL:::}P10;
++{N,NCOM,^HUMN,^&@def,^&@pl:&@def,&@pl::}{BIV,BOCH,DEF,^HUMN,PL:::}P10;
++{N,NCOM,HUMN,VEND,^&@def,^&@pl:&@def,&@pl::}{BIV,BOCH,DEF,HUMN,VEND,PL:::}P10;
++{N,NCOM,HUMN,CEND,^&@def,^&@pl:&@def,&@pl::}{BIV,BOCH,DEF,HUMN,CEND,PL:::}P10;
+:{N,&@def:-N,NP::}{:::}P10;
+>(SHEAD){NP::agt:}{VERB,#AGT:::}P10;
+;;
+DR{ART,IDEF,HUMN,^blk:+blk::}{BLK:::}P10;
+;;
+-{ART,IDEF,HUMN:::}{N,NCOM,HUMN:&@indef::}P10;
+>{SUBJ::aoj:}{N,NCOM:::}
+;;
+;;
+;;
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;RULES FOR NOUN+BIVAKTI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;
+;;
+
+>{NP,^#OBJ,^biv::aoj:}{VERB,^#AGT,#AOJ,^>aoj:::}P10;
+>{NP,#OBJ,^biv::obj:}{VERB,^#AGT,#OBJ,^>obj:::}P10;
+R{:::}{NP:::}P10;
+:{N,^biv,blk:-N,+NP::}{^ANUS:::}P10;
+;;
+?{N,^biv,VEND,^AEND:::}{BIV,^VEND:::}P10;
+;;?{N,^biv,VEND,AEND:::}{BIV,^AEND:::}P10;
+?{N,^biv,CEND:::}{BIV,^CEND:::}P10;
++{N,VEND,^biv:biv,@::}{BIV,VEND:::}P10;
++{N,AEND,^biv:biv,@::}{BIV,AEND:::}P10;
++{N,CEND,^biv:biv,@::}{BIV,CEND:::}P10;
+:{:::}{N,biv,BIV:-N,-BIV,+NP::}P10;
+R{:::}{NP,biv,BIV:::}P10;
+;;
+>{NP,7TH,biv,#PLC::plc:}{VERB,^#PLC,^>plc:::}P10;
+>{NP,7TH,biv::plt:}{VERB,#PLT,^>plt:::}P10;
+>{NP,7TH,biv::plc:}{VERB,#PLC,^>plc:::}P10;
+>{N,#PLC,^7TH::plt:}{VERB,#PLT:::}P10;
+>{N,#PLC,^7TH::plt:}{VERB,#PLC:::}P10;
+>{NP,#PLC,^7TH::plt:}{VERB,#PLT:::}P10;
+>{NP,#PLC,^7TH::plt:}{VERB,#PLC:::}P10;
+;;
+;;
+R{:::}{N,#PLC:::}P10;
+
+;;
+
+
+
+
+
