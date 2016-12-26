@@ -20,15 +20,16 @@ def index(request):
     text2 = request.GET.get('inputText2')
     text3 = request.GET.get('inputText3')
 
-    print language1,language2,language3
-    print text1, text2, text3
-    print request.GET.get('bBut'),
-    print request.GET.get('eBut'),
-    print request.GET.get('tBut')
+    #print language1,language2,language3
+    #print text1, text2, text3
+    #print request.GET.get('bBut'),
+    #print request.GET.get('eBut'),
+    #print request.GET.get('tBut')
     
     ans = None
     
     if request.GET.get('bBut') == 'ban':
+        text1 = text1.encode( "utf8" )
         if enorde1 == "Encode":
             if len(text1.split()) < 3:
                 messages.error(request, 'The Given sentence has no complete expectation (Akangkha)');
@@ -53,7 +54,11 @@ def index(request):
                     
                     if not x:
                         break
-                        
+                    
+                    if x.find('[W]') != -1:
+                        messages.error(request, 'The Given sentence has error - Proximity (Joggota)');
+                        return render(request, "home.html");
+                    
                     lines.append(x)
                 
                 readFile.close()
@@ -74,6 +79,11 @@ def index(request):
                         break
                         
                     id = id + 1
+                print ans[1]
+                if len(ans) > 2:
+                    if ans[1] == '[W]':
+                        messages.error(request, 'The Given sentence has error - Proximity (Joggota)');
+                        return render(request, "home.html");
                 
                 return render(request, "home.html", {'rule': (ans)})
                 
@@ -108,6 +118,7 @@ def index(request):
             
     
     elif request.GET.get('eBut') == 'eng':
+        text2 = text2.encode("utf8")
         if enorde2 == "Encode":
             x = "DOMAIN=SPORT&password=guest&TAGERROR=NO&username=UNL_guest&conversion=true&language=en&data=%s&outputmode=text&coding=utf-8" % (text2)
             print x
