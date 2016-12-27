@@ -16,12 +16,13 @@ def index(request):
     enorde1 = request.GET.get('enordn1')
     enorde2 = request.GET.get('enordn2')
     enorde3 = request.GET.get('enordn3')
-    text1 = request.GET.get('inputText1')
+    text11 = request.GET.get('inputText11')
+    text12 = request.GET.get('inputText12')
     text2 = request.GET.get('inputText2')
     text3 = request.GET.get('inputText3')
 
     #print language1,language2,language3
-    #print text1, text2, text3
+    print text11, text2, text3
     #print request.GET.get('bBut'),
     #print request.GET.get('eBut'),
     #print request.GET.get('tBut')
@@ -29,15 +30,16 @@ def index(request):
     ans = None
     
     if request.GET.get('bBut') == 'ban':
-        text1 = text1.encode( "utf8" )
         if enorde1 == "Encode":
-            if len(text1.split()) < 3:
+            text11 = text11.encode( "utf8" )
+            print text11
+            if len(text11.split()) < 3:
                 messages.error(request, 'The Given sentence has no complete expectation (Akangkha)');
                 return render(request, "home.html");
                 
             else:
                 writeFile = open('UNLTest\\EnInput.txt','w')
-                writeFile.writelines(text1)
+                writeFile.writelines(text11)
                 writeFile.close()
                 
                 FNULL = open(os.devnull,'w')
@@ -85,11 +87,14 @@ def index(request):
                         messages.error(request, 'The Given sentence has error - Proximity (Joggota)');
                         return render(request, "home.html");
                 
+                request.GET.text1 = 'AvzG'
+                
                 return render(request, "home.html", {'rule': (ans)})
                 
         else:
+            text12 = text12.encode( "utf8" )
             writeFile = open('UNLTest\\DeInput.txt','w')
-            writeFile.writelines(text1)
+            writeFile.writelines(text12)
             writeFile.close()
             
             FNULL = open(os.devnull,'w')
@@ -124,7 +129,7 @@ def index(request):
             print x
 
             r = requests.post('http://unl.ru/etap-cgi/cgiunl.exe', data=x)
-            print r.text
+            #print r.text
             ans1 = r.text[r.text.find('{unl'):r.text.find('{/unl}')+6]
             ans = []
             anss = ''
