@@ -124,11 +124,25 @@
         </form>
         
         <p>
-            {% for foo in rule %}
-                {{ foo  }}
-                <br/>
-            {% endfor %}
-
+            <h3>
+            {% ifequal dec "yes" %}
+                <div style="font-family: SutonnyMJ">
+                {% for foo in rule %}
+                    {{ foo  }}
+                    <br/>
+                {% endfor %}
+                </div>
+            {% endifequal %}
+            </h3>
+            
+            {% ifequal dec "no" %}
+                <div>
+                {% for foo in rule %}
+                    {{ foo  }}
+                    <br/>
+                {% endfor %}
+                </div>
+            {% endifequal %}
         </p>
         
         

@@ -89,7 +89,7 @@ def index(request):
                 
                 request.GET.text1 = 'AvzG'
                 
-                return render(request, "home.html", {'rule': (ans)})
+                return render(request, "home.html", {'rule': (ans), 'dec':'no'})
                 
         else:
             text12 = text12.encode( "utf8" )
@@ -119,7 +119,7 @@ def index(request):
             ans.append( lines[-3] );
             readFile.close()
             
-            return render(request, "home.html", {'rule': (ans)})
+            return render(request, "home.html", {'rule': (ans), 'dec':'yes'})
             
     
     elif request.GET.get('eBut') == 'eng':
@@ -146,13 +146,13 @@ def index(request):
             #print '!!!' +  ans
 
             #return render(request, "home.html",{'rule' : r.text[r.text.find('{unl'):r.text.find('{/unl}')+6]})
-            return render(request, "home.html", {'rule': (ans)})
+            return render(request, "home.html", {'rule': (ans),'dec':'no'})
 
         else:
             x = "DOMAIN=SPORT&password=guest&TAGERROR=NO&username=UNL_guest&conversion=false&language=en&data=%s&outputmode=text&coding=utf-8" % (
             text2)
             r = requests.post('http://unl.ru/etap-cgi/cgiunl.exe', data=x)
 
-            return render(request, "home.html",{'rule' : HttpResponse(r.text[5:])})
+            return render(request, "home.html",{'rule' : HttpResponse(r.text[5:]), 'dec':'no'})
     else:
         return render(request, "home.html")
